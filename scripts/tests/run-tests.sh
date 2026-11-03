@@ -24,6 +24,10 @@ output=$(cd "$output" && pwd)
 "$cxx" --version > "$output/compiler.txt"
 printf '%s\n' "$native" > "$output/architecture.txt"
 
+"$cxx" -std=c++20 -Wall -Wextra -Werror "$here/CompilerFeatureProbe.cpp" \
+    -o "$output/CompilerFeatureProbe" > "$output/compiler-feature-probe.log" 2>&1
+"$output/CompilerFeatureProbe"
+
 "$cxx" -std=c++17 -O2 -Wall -Wextra -Werror -pthread \
     -I"$melon/src" "$here/MultiDSFixture.cpp" \
     "$melon/src/net/WiiDSBridge.cpp" -o "$output/MultiDSFixture" \
