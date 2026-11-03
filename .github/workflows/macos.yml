@@ -98,7 +98,7 @@ jobs:
           brew install cmake ninja pkgconf sdl2 libarchive zstd faad2 enet
           python3 -m aqt install-qt mac desktop "$QT_VERSION" clang_64 \
             --outputdir "$PWD/qt-sdk" \
-            --modules qtmultimedia qtsvg qtshadertools
+            --modules qtmultimedia qtshadertools
           qt_tool="$(find "$PWD/qt-sdk/$QT_VERSION" -type f -name macdeployqt -print -quit)"
           test -n "$qt_tool"
           qt_root="$(dirname "$(dirname "$qt_tool")")"

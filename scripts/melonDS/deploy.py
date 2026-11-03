@@ -204,7 +204,8 @@ def smoke(app: Path, output: Path) -> dict:
             env = {key: value for key, value in os.environ.items()
                    if not key.startswith(("MELONDS_WIIDS_", "QT_", "QML", "DYLD_"))}
             env.update(HOME=str(root / "home"), TMPDIR=str(root / "tmp"),
-                       QT_QPA_PLATFORM="offscreen", QT_MULTIMEDIA_PREFERRED_PLUGINS="darwin")
+                       QT_QPA_PLATFORM="offscreen", SDL_AUDIODRIVER="dummy",
+                       QT_MULTIMEDIA_PREFERRED_PLUGINS="darwin")
             with (output / f"smoke-{label}-stdout.log").open("w") as stdout, (output / f"smoke-{label}-stderr.log").open("w") as stderr:
                 child = subprocess.Popen([str(copy / "Contents/MacOS/melonDS"), "--boot", "never"],
                                          cwd=root, env=env, stdout=stdout, stderr=stderr)
