@@ -205,7 +205,8 @@ def smoke(app: Path, output: Path) -> dict:
                    if not key.startswith(("MELONDS_WIIDS_", "QT_", "QML", "DYLD_"))}
             env.update(HOME=str(root / "home"), TMPDIR=str(root / "tmp"),
                        QT_QPA_PLATFORM="offscreen", SDL_AUDIODRIVER="dummy",
-                       QT_MULTIMEDIA_PREFERRED_PLUGINS="darwin")
+                       QT_MULTIMEDIA_PREFERRED_PLUGINS="darwin",
+                       SDL2COMPAT_DEBUG_LOGGING="1", NSUnbufferedIO="YES")
             with (output / f"smoke-{label}-stdout.log").open("w") as stdout, (output / f"smoke-{label}-stderr.log").open("w") as stderr:
                 child = subprocess.Popen([str(copy / "Contents/MacOS/melonDS"), "--boot", "never"],
                                          cwd=root, env=env, stdout=stdout, stderr=stderr)
@@ -233,6 +234,18 @@ def smoke(app: Path, output: Path) -> dict:
                     if len(replies) != (1 if automatic else 0):
                         raise RuntimeError(f"{label}: unexpected number of frontend radio listeners: {len(replies)}")
                     mode.update(aliveForSeconds=6, acknowledgedRadioPorts=sorted(replies), passed=True)
+                except Exception as error:
+                    mode["error"] = str(error)
+                    if child.poll() is None:
+                        try:
+                            subprocess.run(["sample", str(child.pid), "1", "1", "-file",
+                                            str(output / f"smoke-{label}-sample.log")],
+                                           stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                                           timeout=15, check=False)
+                        except (OSError, subprocess.TimeoutExpired):
+                            pass
+                    (output / "SMOKE-TEST.json").write_text(json.dumps(result, indent=2) + "\n")
+                    raise
                 finally:
                     if child.poll() is None:
                         child.terminate()
@@ -274,6 +287,17 @@ def main() -> None:
         closure.origins[target.resolve()] = original.resolve()
     if not (app / "Contents/PlugIns/platforms/libqcocoa.dylib").is_file():
         raise RuntimeError("macdeployqt did not deploy the native Cocoa platform plugin")
+    # Homebrew's sdl2 now supplies sdl2-compat. It dlopens SDL3 in its
+    # constructor, so otool cannot discover this required dependency.
+    # The loader searches next to libSDL2, which is in Frameworks here.
+    # Bundle the actual dylib under the exact runtime lookup name before
+    # recursively fixing its dependencies, thinning and signing the app.
+    sdl3 = Path(run("brew", "--prefix", "sdl3")) / "lib/libSDL3.dylib"
+    if not sdl3.is_file():
+        raise RuntimeError("Homebrew SDL2-compat requires the SDL3 runtime")
+    target = closure.frameworks / "libSDL3.dylib"
+    shutil.copy2(sdl3.resolve(), target)
+    closure.origins[target.resolve()] = sdl3.resolve()
     closure.apply()
     plist_path = app / "Contents/Info.plist"
     with plist_path.open("rb") as handle:

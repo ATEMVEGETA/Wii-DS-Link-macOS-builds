@@ -123,7 +123,7 @@ jobs:
             sources/melonDS build/melonDS out/melonDS "$EXPECTED_ARCH" "$QT_ROOT" \
             2>&1 | tee out/logs/melonds-build.txt
       - name: Build and deploy Dolphin
-        if: ${{ inputs.component == 'both' || inputs.component == 'Dolphin' }}
+        if: ${{ !cancelled() && (inputs.component == 'both' || inputs.component == 'Dolphin') }}
         shell: bash
         run: |
           set -euo pipefail
@@ -150,8 +150,11 @@ jobs:
           set -euo pipefail
           test "$(gh api "repos/$GITHUB_REPOSITORY" --jq .private)" = false
           tag="encrypted-build-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT"
-          gh release create "$tag" --repo "$GITHUB_REPOSITORY" \
-            --draft --target "$GITHUB_SHA" \
-            --title "Encrypted macOS build $GITHUB_RUN_ID" \
-            --notes "Encrypted experimental build results. No public emulator release."
+          if ! gh release view "$tag" --repo "$GITHUB_REPOSITORY" > /dev/null 2>&1; then
+            gh release create "$tag" --repo "$GITHUB_REPOSITORY" \
+              --draft --target "$GITHUB_SHA" \
+              --title "Encrypted macOS build $GITHUB_RUN_ID" \
+              --notes "Encrypted experimental build results. No public emulator release."
+          fi
+          test "$(gh release view "$tag" --repo "$GITHUB_REPOSITORY" --json isDraft --jq .isDraft)" = true
           gh release upload "$tag" sealed/*.wdsenc --repo "$GITHUB_REPOSITORY"
