@@ -69,8 +69,21 @@ jobs:
           repository: ATEMVEGETA/Dolphin
           ref: 22060863a04f086bd0c51a6fdf7500e27470d35d
           path: sources/dolphin
-          submodules: recursive
+          submodules: false
           persist-credentials: false
+      - name: Initialize native Dolphin dependencies only
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd sources/dolphin
+          paths=()
+          while IFS= read -r path; do
+            case "$path" in
+              Externals/Qt|Externals/FFmpeg-bin) ;;
+              *) paths+=("$path") ;;
+            esac
+          done < <(git config -f .gitmodules --get-regexp '^submodule\..*\.path$' | awk '{print $2}')
+          git submodule update --init --recursive --depth 1 --jobs 2 -- "${paths[@]}"
       - name: Verify architecture and run ROM-free transport checks
         shell: bash
         run: |
