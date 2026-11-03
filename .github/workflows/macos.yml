@@ -14,22 +14,28 @@ on:
         type: choice
         options: [both, melonDS, Dolphin]
         default: both
+      macos_image:
+        description: Free Apple Silicon runner pool (Intel always uses macos-15-intel)
+        required: true
+        type: choice
+        options: [macos-15, macos-14]
+        default: macos-15
 permissions:
   contents: read
 concurrency:
-  group: experimental-macos-${{ inputs.architecture }}
+  group: experimental-macos-${{ inputs.architecture }}-${{ inputs.macos_image }}
   cancel-in-progress: false
 jobs:
   build:
-    if: ${{ github.event.repository.private == false && github.repository == 'ATEMVEGETA/Wii-DS-Link-macOS-builds' }}
-    runs-on: ${{ inputs.architecture == 'arm64' && 'macos-15' || 'macos-15-intel' }}
+    if: ${{ github.event.repository.private == false && github.repository == 'ATEMVEGETA/Wii-DS-Link-macOS-builds' && (inputs.macos_image == 'macos-15' || inputs.macos_image == 'macos-14') }}
+    runs-on: ${{ inputs.architecture == 'arm64' && inputs.macos_image || 'macos-15-intel' }}
     timeout-minutes: 45
     permissions:
       contents: write
     env:
       HOMEBREW_NO_AUTO_UPDATE: "1"
       HOMEBREW_NO_INSTALL_CLEANUP: "1"
-      MACOSX_DEPLOYMENT_TARGET: "15.0"
+      MACOSX_DEPLOYMENT_TARGET: ${{ inputs.architecture == 'arm64' && inputs.macos_image == 'macos-14' && '14.0' || '15.0' }}
       JOBS: "2"
       QT_VERSION: "6.8.3"
       EXPECTED_ARCH: ${{ inputs.architecture }}

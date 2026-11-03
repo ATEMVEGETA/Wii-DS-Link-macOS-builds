@@ -9,7 +9,7 @@ repositories. No Playnite source, build or profile is included.
 Runs are manual-only. A job is skipped if this repository is private; the
 runner also verifies public visibility before building and before saving
 results. Do not change visibility while a run is active. Runner labels are
-restricted to macos-15 and macos-15-intel, not larger runners.
+restricted to macos-14, macos-15 and macos-15-intel, not larger runners.
 
 Generated packages and diagnostic archives are encrypted with a committed RSA
 public key and stored only as encrypted draft release assets. The private key
