@@ -36,7 +36,7 @@ jobs:
       HOMEBREW_NO_AUTO_UPDATE: "1"
       HOMEBREW_NO_INSTALL_CLEANUP: "1"
       MACOSX_DEPLOYMENT_TARGET: ${{ inputs.architecture == 'arm64' && inputs.macos_image == 'macos-14' && '14.0' || '15.0' }}
-      JOBS: "2"
+      JOBS: ${{ inputs.architecture == 'x86_64' && '3' || '2' }}
       QT_VERSION: "6.8.3"
       EXPECTED_ARCH: ${{ inputs.architecture }}
       COMPONENT: ${{ inputs.component }}
@@ -122,6 +122,8 @@ jobs:
           sw_vers > out/logs/host-macos.txt
           xcodebuild -version > out/logs/xcode.txt
           python3 -m pip freeze > out/logs/python-packages.txt
+          # Catch packaging-tool CLI changes before spending time compiling.
+          brew deps --installed sdl2 libarchive zstd faad2 enet > out/logs/homebrew-runtime-dependencies.txt
       - name: Build and deploy melonDS
         id: melon
         if: ${{ inputs.component == 'both' || inputs.component == 'melonDS' }}

@@ -69,7 +69,8 @@ def privacy_check(root: Path) -> None:
 
 def collect_homebrew_notices(destination: Path) -> dict:
     names = set(DEPENDENCIES)
-    names.update(run("brew", "deps", "--installed", "--recursive", *DEPENDENCIES).splitlines())
+    # brew deps is recursive by default; modern Homebrew rejects --recursive.
+    names.update(run("brew", "deps", "--installed", *DEPENDENCIES).splitlines())
     report = {}
     destination.mkdir(parents=True)
     for name in sorted(filter(None, names)):

@@ -16,6 +16,20 @@ import subprocess
 import sys
 
 
+MACHO_MAGICS = frozenset(bytes.fromhex(value) for value in (
+    "feedface", "cefaedfe",  # 32-bit Mach-O, both byte orders
+    "feedfacf", "cffaedfe",  # 64-bit Mach-O, both byte orders
+    "cafebabe", "bebafeca",  # 32-bit fat header, both byte orders
+    "cafebabf", "bfbafeca",  # 64-bit fat header, both byte orders
+))
+
+
+def is_macho_candidate(path: pathlib.Path) -> bool:
+    # The magic is a cheap prefilter, not a substitute for file validation.
+    with path.open("rb") as stream:
+        return stream.read(4) in MACHO_MAGICS
+
+
 def run(*arguments: str) -> str:
     return subprocess.check_output(arguments, text=True, stderr=subprocess.STDOUT)
 
@@ -154,6 +168,8 @@ def main() -> int:
         if not item.is_file() or real in seen:
             continue
         seen.add(real)
+        if not is_macho_candidate(real):
+            continue
         kind = run("/usr/bin/file", "-b", str(real))
         if "Mach-O" not in kind:
             continue

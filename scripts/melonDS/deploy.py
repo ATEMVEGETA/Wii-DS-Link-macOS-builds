@@ -20,6 +20,14 @@ import tempfile
 import time
 
 
+MACHO_MAGICS = frozenset(bytes.fromhex(value) for value in (
+    "feedface", "cefaedfe",  # 32-bit Mach-O, both byte orders
+    "feedfacf", "cffaedfe",  # 64-bit Mach-O, both byte orders
+    "cafebabe", "bebafeca",  # 32-bit fat header, both byte orders
+    "cafebabf", "bfbafeca",  # 64-bit fat header, both byte orders
+))
+
+
 def run(*args: str | Path) -> str:
     return subprocess.check_output([str(arg) for arg in args], text=True).strip()
 
@@ -28,10 +36,17 @@ def inside(path: Path, root: Path) -> bool:
     return path.resolve().is_relative_to(root.resolve())
 
 
+def is_macho_candidate(path: Path) -> bool:
+    # Most app resources are INI files, images or notices. Avoid spawning
+    # file for each one; matching headers still require its verification.
+    with path.open("rb") as stream:
+        return stream.read(4) in MACHO_MAGICS
+
+
 def macho_files(root: Path) -> list[Path]:
     found: dict[Path, Path] = {}
     for path in root.rglob("*"):
-        if path.is_file() and not path.is_symlink():
+        if path.is_file() and not path.is_symlink() and is_macho_candidate(path):
             if "Mach-O" in run("file", "-b", path):
                 found[path.resolve()] = path
     return sorted(found.values())
