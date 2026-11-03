@@ -1,0 +1,2756 @@
+{
+  "formatVersion": 1,
+  "status": "local-Qt-notice-preservation-report",
+  "createdUTC": "2026-10-10T07:58:08.7363790Z",
+  "expectedQtVersion": "6.8.3",
+  "qtBuildTreesRoot": "C:\\WiiDS-Static\\buildtrees",
+  "modulesSearched": [
+    "qtbase",
+    "qtmultimedia",
+    "qtsvg",
+    "qtshadertools"
+  ],
+  "missingModuleSources": [],
+  "sources": [
+    {
+      "module": "qtbase",
+      "sourceRoot": "C:\\WiiDS-Static\\buildtrees\\qtbase\\src\\here-src-6-c9a145a2ff.clean",
+      "detectedVersion": "6.8.3",
+      "expectedVersion": "6.8.3",
+      "collected": true
+    },
+    {
+      "module": "qtmultimedia",
+      "sourceRoot": "C:\\WiiDS-Static\\buildtrees\\qtmultimedia\\src\\here-src-6-9dc4985106.clean",
+      "detectedVersion": "6.8.3",
+      "expectedVersion": "6.8.3",
+      "collected": true
+    },
+    {
+      "module": "qtsvg",
+      "sourceRoot": "C:\\WiiDS-Static\\buildtrees\\qtsvg\\src\\here-src-6-5892a193db.clean",
+      "detectedVersion": "6.8.3",
+      "expectedVersion": "6.8.3",
+      "collected": true
+    },
+    {
+      "module": "qtshadertools",
+      "sourceRoot": "C:\\WiiDS-Static\\buildtrees\\qtshadertools\\src\\here-src-6-38e26571ad.clean",
+      "detectedVersion": "6.8.3",
+      "expectedVersion": "6.8.3",
+      "collected": true
+    }
+  ],
+  "attributions": [
+    {
+      "module": "qtbase",
+      "file": "cmake/3rdparty/extra-cmake-modules/qt_attribution.json",
+      "id": "extra-cmake-modules",
+      "name": "extra-cmake-modules",
+      "copyright": "Copyright © 2011-2018 The KDE community",
+      "license": "BSD-3-Clause",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "cmake/3rdparty/kwin/qt_attribution.json",
+      "id": "kwin",
+      "name": "KWin",
+      "copyright": "Copyright 2014 Alex Merry <alex.merry@kde.org>\nCopyright 2014 Martin Gräßlin <mgraesslin@kde.org>,\nCopyright (c) 2006,2007 Laurent Montel, <montel@kde.org>",
+      "license": "BSD-3-Clause",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/android/qt_attribution.json",
+      "id": "android-native-style",
+      "name": "Native Style for Android",
+      "copyright": "Copyright (C) 2005 The Android Open Source Project",
+      "license": "Apache License 2.0",
+      "licenseId": "Apache-2.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/blake2/qt_attribution.json",
+      "id": "blake2",
+      "name": "BLAKE2 (reference implementation)",
+      "copyright": "Copyright 2012, Samuel Neves <sneves@dei.uc.pt>",
+      "license": "Creative Commons Zero v1.0 Universal or Apache License 2.0",
+      "licenseId": "CC0-1.0 OR Apache-2.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/D3D12MemoryAllocator/qt_attribution.json",
+      "id": "d3d12memoryallocator",
+      "name": "D3D12 Memory Allocator",
+      "copyright": "Copyright (c) 2019-2022 Advanced Micro Devices, Inc. All rights reserved.",
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/double-conversion/qt_attribution.json",
+      "id": "doubleconversion",
+      "name": "Efficient Binary-Decimal and Decimal-Binary Conversion Routines for IEEE Doubles",
+      "copyright": "Copyright 2006-2012, the V8 project authors",
+      "license": "BSD 3-clause \"New\" or \"Revised\" License",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/easing/qt_attribution.json",
+      "id": "easing",
+      "name": "Easing Equations by Robert Penner",
+      "copyright": "Copyright (c) 2001 Robert Penner",
+      "license": "BSD 3-clause \"New\" or \"Revised\" License",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/forkfd/qt_attribution.json",
+      "id": "forkfd",
+      "name": "forkfd",
+      "copyright": "Copyright (C) 2016 Intel Corporation\nCopyright (C) 2015 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com",
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/freetype/qt_attribution.json",
+      "id": "freetype",
+      "name": "Freetype 2",
+      "copyright": [
+        "Copyright (c) 2007-2014 Adobe Systems Incorporated",
+        "Copyright (c) 2004-2024 Albert Chin-A-Young",
+        "Copyright (c) 2018-2024 Armin Hasitzka, David Turner, Robert Wilhelm, and Werner Lemberg",
+        "Copyright (c) 2000 Computing Research Labs, New Mexico State University",
+        "Copyright (c) 1996-2024 David Turner, Robert Wilhelm, Dominik Röttsches, and Werner Lemberg",
+        "Copyright (c) 2004-2024 David Turner, Robert Wilhelm, Werner Lemberg and George Williams",
+        "Copyright (c) 2022-2024 David Turner, Robert Wilhelm, Werner Lemberg, and Moazin Khatti",
+        "Copyright (c) 2008-2024 David Turner, Robert Wilhelm, Werner Lemberg, and suzuki toshiya",
+        "Copyright (c) 2003-2024 David Turner, Robert Wilhelm, and Werner Lemberg",
+        "Copyright (c) 2005-2024 David Turner",
+        "Copyright (c) 2007-2024 Derek Clegg and Michael Toftdal",
+        "Copyright (c) 2007 Dmitry Timoshkov for Codeweavers",
+        "Copyright (c) 2001-2015 Francesco Zappa Nardelli",
+        "Copyright (c) 2005, 2007, 2008, 2013 George Williams",
+        "Copyright (c) 2013-2024 Google, Inc. Google Author(s) Behdad Esfahbod and Stuart Gill",
+        "Copyright (c) 2013-2022 Google, Inc.",
+        "Copyright (c) 2003 Huw D M Davies for Codeweavers",
+        "Copyright (c) 2010-2024 Joel Klinghed",
+        "Copyright (c) 1996-2024 Just van Rossum, David Turner, Robert Wilhelm, and Werner Lemberg",
+        "Copyright (c) 2003-2024 Masatake YAMATO and Redhat K.K.",
+        "Copyright (c) 2004-2024 Masatake YAMATO, Redhat K.K, David Turner, Robert Wilhelm, and Werner Lemberg",
+        "Copyright (c) 2019-2024 Nikhil Ramakrishnan, David Turner, Robert Wilhelm, and Werner Lemberg",
+        "Copyright (c) 2009-2024 Oran Agra and Mickey Gabel",
+        "Copyright (c) 2007-2024 Rahul Bhalerao <rahul.bhalerao@redhat.com>",
+        "Copyright (c) 2002-2024 Roberto Alameda",
+        "Copyright (c) 2015-2024 Werner Lemberg",
+        "Copyright (c) 2004-2024 suzuki toshiya, Masatake YAMATO, Red Hat K.K., David Turner, Robert Wilhelm, and Werner Lemberg",
+        "Copyright (c) 2019 nyorain",
+        "Copyright (c) 2022-2024 David Turner, Robert Wilhelm, Werner Lemberg, George Williams, and Dominik Röttsches",
+        "Copyright (C) 2009, 2023  Red Hat, Inc."
+      ],
+      "license": "Freetype Project License or GNU General Public License v2.0 only",
+      "licenseId": "FTL OR GPL-2.0-only"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/freetype/qt_attribution.json",
+      "id": "freetype-zlib",
+      "name": "Freetype 2 - zlib",
+      "copyright": "Copyright (C) 1995-2023 Jean-loup Gailly and Mark Adler",
+      "license": "zlib License",
+      "licenseId": "Zlib"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/freetype/qt_attribution.json",
+      "id": "freetype-bdf",
+      "name": "Freetype 2 - Bitmap Distribution Format (BDF) support",
+      "copyright": [
+        "Copyright (c) 2000 Computing Research Labs, New Mexico State University",
+        "Copyright (c) 2001-2014 Francesco Zappa Nardelli"
+      ],
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/freetype/qt_attribution.json",
+      "id": "freetype-pcf",
+      "name": "Freetype 2 - Portable Compiled Format (PCF) support",
+      "copyright": [
+        "Copyright (c) 2001, 2012 David Turner, Robert Wilhelm, and Werner Lemberg",
+        "Copyright (c) 2000-2014 Francesco Zappa Nardelli",
+        "Copyright (c) 1990, 1994, 1998 The Open Group"
+      ],
+      "license": "MIT License and MIT Open Group variant",
+      "licenseId": "MIT AND MIT-open-group"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/gradle/qt_attribution.json",
+      "id": "android-gradle-wrapper",
+      "name": "Gradle wrapper",
+      "copyright": "Copyright (C) 2024 Gradle Inc.",
+      "license": "Apache License 2.0",
+      "licenseId": "Apache-2.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/harfbuzz-ng/qt_attribution.json",
+      "id": "harfbuzz-ng",
+      "name": "HarfBuzz-NG",
+      "copyright": [
+        "Copyright © 2010-2022  Google, Inc.",
+        "Copyright © 2015-2020  Ebrahim Byagowi",
+        "Copyright © 2019,2020  Facebook, Inc.",
+        "Copyright © 2012,2015  Mozilla Foundation",
+        "Copyright © 2011  Codethink Limited",
+        "Copyright © 2008,2010  Nokia Corporation and/or its subsidiary(-ies)",
+        "Copyright © 2009  Keith Stribley",
+        "Copyright © 2011  Martin Hosken and SIL International",
+        "Copyright © 2007  Chris Wilson",
+        "Copyright © 2005,2006,2020,2021,2022,2023  Behdad Esfahbod",
+        "Copyright © 2004,2007,2008,2009,2010,2013,2021,2022,2023  Red Hat, Inc.",
+        "Copyright © 1998-2005  David Turner and Werner Lemberg",
+        "Copyright © 2016  Igalia S.L.",
+        "Copyright © 2022  Matthias Clasen",
+        "Copyright © 2018,2021  Khaled Hosny",
+        "Copyright © 2018,2019,2020  Adobe, Inc",
+        "Copyright © 2013-2015  Alexei Podtelezhnikov"
+      ],
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/iaccessible2/qt_attribution.json",
+      "id": "iaccessible2",
+      "name": "IAccessible2 IDL Specification",
+      "copyright": [
+        "Copyright (c) 2000, 2006 Sun Microsystems, Inc.",
+        "Copyright (c) 2006 IBM Corporation",
+        "Copyright (c) 2007, 2010, 2012, 2013 Linux Foundation\nIAccessible2 is a trademark of the Linux Foundation. The IAccessible2 mark may be used in accordance with the Linux Foundation Trademark Policy to indicate compliance with the IAccessible2 specification."
+      ],
+      "license": "BSD 3-clause \"New\" or \"Revised\" License",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/icc/qt_attribution.json",
+      "id": "icc-srgb-color-profile",
+      "name": "sRGB color profile icc file",
+      "copyright": "Copyright International Color Consortium, 2015",
+      "license": "International Color Consortium License",
+      "licenseId": "LicenseRef-ICC-License"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/libjpeg/qt_attribution.json",
+      "id": "libjpeg",
+      "name": "LibJPEG-turbo",
+      "copyright": null,
+      "license": "Independent JPEG Group License and BSD 3-Clause \"New\" or \"Revised\" License",
+      "licenseId": "IJG AND BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/libpng/qt_attribution.json",
+      "id": "libpng",
+      "name": "LibPNG",
+      "copyright": [
+        "Copyright (c) 1995-2025 The PNG Reference Library Authors",
+        "Copyright (c) 2000-2025 Cosmin Truta",
+        "Copyright (c) 1998-2018 Glenn Randers-Pehrson",
+        "Copyright (c) 1996-1997 Andreas Dilger",
+        "Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.",
+        "Copyright (c) 2000-2017 Simon-Pierre Cadieux",
+        "Copyright (c) 2000-2017 Eric S. Raymond",
+        "Copyright (c) 2000-2017 Mans Rullgard",
+        "Copyright (c) 2000-2017 Gilles Vollant",
+        "Copyright (c) 2000-2017 James Yu",
+        "Copyright (c) 2000-2017 Mandar Sahastrabuddhe",
+        "Copyright (c) 1998-2000 Tom Lane",
+        "Copyright (c) 1998-2000 Willem van Schaik",
+        "Copyright (c) 1996-1997 John Bowler",
+        "Copyright (c) 1996-1997 Kevin Bracey",
+        "Copyright (c) 1996-1997 Sam Bushell",
+        "Copyright (c) 1996-1997 Magnus Holmgren",
+        "Copyright (c) 1996-1997 Greg Roelofs",
+        "Copyright (c) 1996-1997 Tom Tanner",
+        "Copyright (c) 1995-1996 Dave Martindale",
+        "Copyright (c) 1995-1996 Paul Schmidt",
+        "Copyright (c) 1995-1996 Tim Wegner"
+      ],
+      "license": "libpng License and PNG Reference Library version 2",
+      "licenseId": "Libpng AND libpng-2.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/libpsl/qt_attribution.json",
+      "id": "psl-data",
+      "name": "The Public Suffix List",
+      "copyright": "The list was originally provided by Jo Hermans <jo.hermans@gmail.com>.\nIt is now maintained on github (https://github.com/publicsuffix/list).",
+      "license": "Mozilla Public License 2.0",
+      "licenseId": "MPL-2.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/libpsl/qt_attribution.json",
+      "id": "libpsl",
+      "name": "libpsl - C library to handle the Public Suffix List",
+      "copyright": "Copyright 2014-2016 The Chromium Authors. All rights reserved.",
+      "license": "BSD 3-clause \"New\" or \"Revised\" License",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/md4/qt_attribution.json",
+      "id": "md4",
+      "name": "MD4",
+      "copyright": "Written by Alexander Peslyak - better known as Solar Designer <solar@openwall.com> - in 2001, and placed in the public domain. There's absolutely no warranty.",
+      "license": "Public Domain",
+      "licenseId": "CC0-1.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/md4c/qt_attribution.json",
+      "id": "md4c",
+      "name": "MD4C",
+      "copyright": "Copyright © 2016-2024 Martin Mitáš",
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/md5/qt_attribution.json",
+      "id": "md5",
+      "name": "MD5",
+      "copyright": "Written by Colin Plumb in 1993, no copyright is claimed. Ian Jackson <ian@chiark.greenend.org.uk>.",
+      "license": "Public Domain",
+      "licenseId": "CC0-1.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/pcre2/qt_attribution.json",
+      "id": "pcre2",
+      "name": "PCRE2",
+      "copyright": [
+        "Copyright (c) 1997-2024 University of Cambridge",
+        "Copyright (c) 2010-2024 Zoltan Herczeg"
+      ],
+      "license": "BSD 3-clause \"New\" or \"Revised\" License with PCRE2 binary-like Packages Exception",
+      "licenseId": "LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/pcre2/qt_attribution.json",
+      "id": "pcre2-sljit",
+      "name": "PCRE2 - Stack-less Just-In-Time Compiler",
+      "copyright": "Copyright (c) 2009-2024 Zoltan Herczeg",
+      "license": "BSD 2-clause \"Simplified\" License",
+      "licenseId": "BSD-2-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/pixman/qt_attribution.json",
+      "id": "pixman",
+      "name": "Pixman",
+      "copyright": "Copyright © 2009 Nokia Corporation",
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/rfc6234/qt_attribution.json",
+      "id": "rfc6234",
+      "name": "Secure Hash Algorithms SHA-384 and SHA-512",
+      "copyright": "Copyright (c) 2011 IETF Trust and the persons identified as authors of the code.",
+      "license": "BSD 3-clause \"New\" or \"Revised\" License",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/sha1/qt_attribution.json",
+      "id": "sha1",
+      "name": "Secure Hash Algorithm SHA-1",
+      "copyright": [
+        "Copyright (C) Dominik Reichl <dominik.reichl@t-online.de>",
+        "Copyright (C) 2016 The Qt Company Ltd"
+      ],
+      "license": "Public Domain",
+      "licenseId": "LicenseRef-SHA1-Public-Domain"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/sha3/qt_attribution.json",
+      "id": "sha3_endian",
+      "name": "Secure Hash Algorithm SHA-3 - brg_endian",
+      "copyright": "Copyright (c) 1998-2013, Brian Gladman, Worcester, UK. All rights reserved.",
+      "license": "BSD 2-clause \"Simplified\" License",
+      "licenseId": "BSD-2-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/sha3/qt_attribution.json",
+      "id": "sha3_keccak",
+      "name": "Secure Hash Algorithm SHA-3 - Keccak",
+      "copyright": "Guido Bertoni, Joan Daemen, Michaël Peeters and Gilles Van Assche.\nTo the extent possible under law, the implementers have waived all copyright\nand related or neighboring rights to the source code in this file.",
+      "license": "Creative Commons Zero v1.0 Universal",
+      "licenseId": "CC0-1.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/siphash/qt_attribution.json",
+      "id": "siphash",
+      "name": "SipHash Algorithm",
+      "copyright": [
+        "Copyright (C) 2012-2014 Jean-Philippe Aumasson",
+        "Copyright (C) 2012-2014 Daniel J. Bernstein <djb@cr.yp.to>",
+        "Copyright (C) 2016 Intel Corporation"
+      ],
+      "license": "Creative Commons Zero v1.0 Universal",
+      "licenseId": "CC0-1.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/sqlite/qt_attribution.json",
+      "id": "sqlite",
+      "name": "SQLite",
+      "copyright": "The authors disclaim copyright to the source code. However, a license can be obtained if needed.",
+      "license": "SQLite Blessing",
+      "licenseId": "blessing"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/tinycbor/qt_attribution.json",
+      "id": "tinycbor",
+      "name": "TinyCBOR",
+      "copyright": "Copyright (C) 2015-2021 Intel Corporation",
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/VulkanMemoryAllocator/qt_attribution.json",
+      "id": "vulkanmemoryallocator",
+      "name": "Vulkan Memory Allocator",
+      "copyright": "Copyright (c) 2017-2024 Advanced Micro Devices, Inc. All rights reserved.",
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/wasm/qt_attribution.json",
+      "id": "dejayvu",
+      "name": "DejaVu Fonts",
+      "copyright": [
+        "Copyright (c) 2003 by Bitstream, Inc",
+        "Copyright (c) 2006 by Tavmjong Bah",
+        "(c) American Mathematical Society"
+      ],
+      "license": "Bitstream Vera Font License",
+      "licenseId": "Bitstream-Vera"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/wintab/qt_attribution.json",
+      "id": "wintab",
+      "name": "Wintab API",
+      "copyright": "Copyright 1991-1998 by LCS/Telegraphics.",
+      "license": "LCS-Telegraphics License",
+      "licenseId": "LicenseRef-Lcs-Telegraphics"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/xcb/qt_attribution.json",
+      "id": "xcb-xinput",
+      "name": "XCB-XInput",
+      "copyright": [
+        "Copyright (C) 2001-2006 Bart Massey, Jamey Sharp, and Josh Triplett.",
+        "Copyright (C) 2006 Peter Hutterer",
+        "Copyright (C) 2013 Daniel Martin"
+      ],
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/3rdparty/zlib/qt_attribution.json",
+      "id": "zlib",
+      "name": "Data Compression Library (zlib)",
+      "copyright": "(C) 1995-2024 Jean-loup Gailly and Mark Adler",
+      "license": "zlib License",
+      "licenseId": "Zlib"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/corelib/kernel/qt_attribution.json",
+      "id": "qeventdispatcher_cf",
+      "name": "QEventDispatcher on macOS",
+      "copyright": "Copyright (c) 2007-2008, Apple, Inc.",
+      "license": "BSD 3-clause \"New\" or \"Revised\" License",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/corelib/mimetypes/3rdparty/qt_attribution.json",
+      "id": "tika-mimetypes",
+      "name": "Apache Tika MimeType Definitions",
+      "copyright": "Copyright 2024 The Apache Software Foundation",
+      "license": "Apache License 2.0",
+      "licenseId": "Apache-2.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/corelib/text/qt_attribution.json",
+      "id": "unicode-character-database",
+      "name": "Unicode Character Database (UCD)",
+      "copyright": "Copyright (C) 1991-2022 Unicode, Inc.",
+      "license": "Unicode License Agreement - Data Files and Software (2016)",
+      "licenseId": "Unicode-3.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/corelib/text/qt_attribution.json",
+      "id": "unicode-cldr",
+      "name": "Unicode Common Locale Data Repository (CLDR)",
+      "copyright": "Copyright (C) 2004-2023 Unicode, Inc.",
+      "license": "Unicode License v3",
+      "licenseId": "Unicode-3.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/dbus/qt_attribution.json",
+      "id": "libdbus-1-headers",
+      "name": "libdus-1 headers",
+      "copyright": [
+        "Copyright (C) 2002, 2003 CodeFactory AB",
+        "Copyright (C) 2004, 2005 Red Hat, Inc."
+      ],
+      "license": "Academic Free License v2.1, or GNU General Public License v2.0 or later",
+      "licenseId": "AFL-2.1 OR GPL-2.0-or-later"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/gui/opengl/qt_attribution.json",
+      "id": "opengl-headers",
+      "name": "OpenGL Headers",
+      "copyright": "Copyright (c) 2013-2014 The Khronos Group Inc.",
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/gui/opengl/qt_attribution.json",
+      "id": "opengl-es2-headers",
+      "name": "OpenGL ES 2 Headers",
+      "copyright": "Copyright (c) 2013-2014 The Khronos Group Inc.",
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/gui/painting/qt_attribution.json",
+      "id": "grayraster",
+      "name": "Anti-aliasing rasterizer from FreeType 2",
+      "copyright": "Copyright 2000-2016 by David Turner, Robert Wilhelm, and Werner Lemberg.",
+      "license": "Freetype Project License or GNU General Public License v2.0 only",
+      "licenseId": "FTL OR GPL-2.0-only"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/gui/painting/qt_attribution.json",
+      "id": "smooth-scaling-algorithm",
+      "name": "Smooth Scaling Algorithm",
+      "copyright": [
+        "Copyright (C) 2004, 2005 Daniel M. Duley.",
+        "(C) Carsten Haitzler and various contributors.",
+        "(C) Willem Monsuwe <willem@stack.nl>"
+      ],
+      "license": "BSD 2-clause \"Simplified\" License and Imlib2 License",
+      "licenseId": "BSD-2-Clause AND Imlib2"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/gui/painting/qt_attribution.json",
+      "id": "xserverhelper",
+      "name": "X Server helper",
+      "copyright": [
+        "Copyright (c) 1987, 1988 X Consortium",
+        "Copyright 1987, 1988 by Digital Equipment Corporation, Maynard, Massachusetts."
+      ],
+      "license": "X11 License and Historical Permission Notice and Disclaimer",
+      "licenseId": "X11 AND HPND"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/gui/rhi/qt_attribution.json",
+      "id": "rhi-miniengine-d3d12-mipmap",
+      "name": "Mipmap generator for D3D12",
+      "copyright": "Copyright (c) 2015 Microsoft",
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/gui/text/qt_attribution.json",
+      "id": "aglfn",
+      "name": "Adobe Glyph List For New Fonts",
+      "copyright": "Copyright 2002, 2003, 2005, 2006, 2008, 2010, 2015 Adobe Systems",
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/gui/vulkan/qt_attribution.json",
+      "id": "vulkan-xml-spec",
+      "name": "Vulkan API Registry",
+      "copyright": "Copyright (c) 2015-2022 The Khronos Group Inc.",
+      "license": "Apache License 2.0 or MIT License",
+      "licenseId": "Apache-2.0 OR MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/plugins/platforms/cocoa/qt_attribution.json",
+      "id": "cocoa-platform-plugin",
+      "name": "Cocoa Platform Plugin",
+      "copyright": "Copyright (c) 2007-2008, Apple, Inc.",
+      "license": "BSD 3-clause \"New\" or \"Revised\" License",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/testinternal/3rdparty/cmake/qt_attribution.json",
+      "id": "cmake-runcmake-test-modules",
+      "name": "cmake-runcmake-test-modules",
+      "copyright": "Copyright © 2000-2024 Kitware, Inc. and Contributors",
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/testlib/3rdparty/catch2/qt_attribution.json",
+      "id": "catch2",
+      "name": "Catch2",
+      "copyright": "Copyright (c) 2022 Two Blue Cubes Ltd. All rights reserved.",
+      "license": "Boost Software License 1.0",
+      "licenseId": "BSL-1.0"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/testlib/3rdparty/cycle/qt_attribution.json",
+      "id": "cycle",
+      "name": "Cycle",
+      "copyright": [
+        "Copyright (c) 2003, 2007-14 Matteo Frigo",
+        "Copyright (c) 2003, 2007-14 Massachusetts Institute of Technology"
+      ],
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/testlib/3rdparty/linux/qt_attribution.json",
+      "id": "linuxperf",
+      "name": "Linux Performance Events",
+      "copyright": [
+        "Copyright (C) 2008-2009, Thomas Gleixner <tglx@linutronix.de>",
+        "Copyright (C) 2008-2011, Red Hat, Inc., Ingo Molnar",
+        "Copyright (C) 2008-2011, Red Hat, Inc., Peter Zijlstra"
+      ],
+      "license": "GNU General Public License v2.0 only with Linux Syscall Note",
+      "licenseId": "GPL-2.0-only WITH Linux-syscall-note"
+    },
+    {
+      "module": "qtbase",
+      "file": "src/testlib/3rdparty/valgrind/qt_attribution.json",
+      "id": "valgrind",
+      "name": "Valgrind",
+      "copyright": [
+        "Copyright (C) 2000-2017 Julian Seward",
+        "Copyright (C) 2003-2017 Josef Weidendorfer."
+      ],
+      "license": "BSD 4-clause \"Original\" or \"Old\" License",
+      "licenseId": "BSD-4-Clause"
+    },
+    {
+      "module": "qtbase",
+      "file": "util/gradientgen/qt_attribution.json",
+      "id": "webgradients",
+      "name": "WebGradients",
+      "copyright": "Copyright (c) 2017 itmeo",
+      "license": "MIT License",
+      "licenseId": "MIT"
+    },
+    {
+      "module": "qtmultimedia",
+      "file": "src/3rdparty/eigen/qt_attribution.json",
+      "id": "eigen",
+      "name": "Eigen",
+      "copyright": null,
+      "license": "Mozilla Public License 2.0 and BSD 3-Clause \"New\" or \"Revised\" License",
+      "licenseId": "MPL-2.0 AND BSD-3-Clause"
+    },
+    {
+      "module": "qtmultimedia",
+      "file": "src/3rdparty/ffmpeg/qt_attribution.json",
+      "id": "ffmpeg",
+      "name": "FFmpeg",
+      "copyright": "Copyright (c) 2000-2023 the FFmpeg developers",
+      "license": "GNU Lesser General Public License v2.1 or later and BSD 3-Clause \"New\" or \"Revised\" License and BSD 2-Clause \"Simplified\" License and BSD Source Code Attribution and ISC License and MIT License and Mozilla Public License 2.0",
+      "licenseId": "LGPL-2.1-or-later AND BSD-3-Clause AND BSD-2-Clause AND BSD-Source-Code AND ISC AND MIT AND MPL-2.0"
+    },
+    {
+      "module": "qtmultimedia",
+      "file": "src/3rdparty/ffmpeg/qt_attribution.json",
+      "id": "ffmpeg-libjpeg",
+      "name": "libjpeg",
+      "copyright": "Copyright (C) 1991-2020, Thomas G. Lane, Guido Vollbeding.",
+      "license": "Independent JPEG Group License",
+      "licenseId": "IJG"
+    },
+    {
+      "module": "qtmultimedia",
+      "file": "src/3rdparty/ffmpeg/qt_attribution.json",
+      "id": "ffmpeg-zlib",
+      "name": "zlib",
+      "copyright": "Copyright (C) 1995-2022 Jean-loup Gailly and Mark Adler.",
+      "license": "zlib License",
+      "licenseId": "Zlib"
+    },
+    {
+      "module": "qtmultimedia",
+      "file": "src/3rdparty/ffmpeg/qt_attribution.json",
+      "id": "ffmpeg-boost",
+      "name": "boost",
+      "copyright": "(C) Copyright John Maddock 2006. Copyright (c) 2006 Xiaogang Zhang",
+      "license": "Boost Software License 1.0",
+      "licenseId": "BSL-1.0"
+    },
+    {
+      "module": "qtmultimedia",
+      "file": "src/3rdparty/pffft/qt_attribution.json",
+      "id": "pffft",
+      "name": "pffft",
+      "copyright": null,
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+      "licenseId": "BSD-3-Clause"
+    },
+    {
+      "module": "qtmultimedia",
+      "file": "src/3rdparty/resonance-audio/qt_attribution.json",
+      "id": "resonance-audio",
+      "name": "Resonance Audio",
+      "copyright": null,
+      "license": "Apache License 2.0",
+      "licenseId": "Apache-2.0"
+    },
+    {
+      "module": "qtsvg",
+      "file": "src/svg/qt_attribution.json",
+      "id": "xsvg",
+      "name": "XSVG",
+      "copyright": "Copyright 2002 USC/Information Sciences Institute",
+      "license": "Historical Permission Notice and Disclaimer - sell variant",
+      "licenseId": "HPND-sell-variant"
+    },
+    {
+      "module": "qtshadertools",
+      "file": "src/3rdparty/glslang/qt_attribution.json",
+      "id": "glslang",
+      "name": "glslang",
+      "copyright": null,
+      "license": "BSD 3-Clause \"New\" or \"Revised\" License, and MIT Khronos - old variant, and Apache License 2.0, and GNU General Public License v3.0 or later with Bison exception 2.2, and AML glslang variant License",
+      "licenseId": "BSD-3-Clause AND LicenseRef-MIT-Khronos-old AND Apache-2.0 AND GPL-3.0-or-later WITH Bison-exception-2.2 AND AML-glslang"
+    },
+    {
+      "module": "qtshadertools",
+      "file": "src/3rdparty/SPIRV-Cross/qt_attribution.json",
+      "id": "spirvcross",
+      "name": "SPIRV-Cross",
+      "copyright": null,
+      "license": "Apache License 2.0 and MIT Khronos - old variant",
+      "licenseId": "Apache-2.0 AND LicenseRef-MIT-Khronos-old"
+    }
+  ],
+  "unresolvedReferences": [],
+  "files": [
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/.cmake.conf",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 3136,
+      "sha256": "53AFF283579231A8B3F6C1C17EC912BFBCB119B53E848DC443868E994EC2387B"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/cmake/3rdparty/extra-cmake-modules/COPYING-CMAKE-SCRIPTS",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1327,
+      "sha256": "46CDE7DC11E64C78D650B4851B88F6704B4665FF60F22A1CAF68CEB15E217E5B"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/cmake/3rdparty/extra-cmake-modules/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 173,
+      "sha256": "C3ED7EA5E58ACA8D94FF8AED3C1D7AA84310507CC115F39B688573FC9C5D12A9"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/cmake/3rdparty/kwin/COPYING-CMAKE-SCRIPTS",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1327,
+      "sha256": "46CDE7DC11E64C78D650B4851B88F6704B4665FF60F22A1CAF68CEB15E217E5B"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/cmake/3rdparty/kwin/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 350,
+      "sha256": "F7978FE10600A1C52B0D74C04F3F235FA28A5EB1B7E3558AC4410727E134AD41"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/AFL-2.1.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 8948,
+      "sha256": "93BB4F7417AA775BAB9026CC3D0AF28AEB64451FC5A8EC651876785EDD8EAF9B"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/Apache-2.0.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 10398,
+      "sha256": "E3BA223BB1423F0AAD8C3DFCE0FE3148DB48926D41E6FBC3AFBBF5FF9E1C89CB"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/Bitstream-Vera.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 8816,
+      "sha256": "7A083B136E64D064794C3419751E5C7DD10D2F64C108FE5BA161EAE5E5958A93"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/blessing.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 244,
+      "sha256": "592DB1199AAB67AAFE4515DB9808B420DB122083807C5329B2F061951E79ACBE"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/BSD-2-Clause.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1276,
+      "sha256": "8FDA146749CA071AC9CDCE2E24D25444676EA48D1F9DCCC2B7C15C054B717DB8"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/BSD-3-Clause.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1469,
+      "sha256": "9F0490F18656C6F2435BD14F603EF0C96434D1825615363DCE43ABB42ED1DCCE"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/BSD-4-Clause.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1672,
+      "sha256": "83FAA0D205C316CE3EFEAFEE465B6A165914FB29595968C08DC6437021B7B6FD"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/BSL-1.0.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1340,
+      "sha256": "3ABD6471B9A9A08D65CE771143F8E278BB4C1AEB10C1C2D476935A6B049653F5"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/CC0-1.0.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 7048,
+      "sha256": "A2010F343487D3F7618AFFE54F789F5487602331C0A8D03F49E9A7C547CF0499"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/FTL.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 6743,
+      "sha256": "08C135755DD589039470F1FDBB400DAAABAAA50D0B366D19CEBFF4D22986BAA1"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 22955,
+      "sha256": "110535522396708CEA37C72A802C5E7E81391139F5F7985631C93EF242B206A4"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/GPL-2.0-only.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 18092,
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/GPL-2.0-or-later.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 18092,
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/GPL-3.0-only.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 35147,
+      "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/HPND.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1188,
+      "sha256": "67AC968431270291F5E9CD3ED76705E1169F57082EE102093B2543B28CEF63CF"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/IJG.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1815,
+      "sha256": "1CB448F5E2E6D3ACA60943F4EEE1A04675628DC0266A074A42BC1560EBC28D61"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/Imlib2.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1986,
+      "sha256": "8846F2BABA1A7F4C36F7CA19A923A000D8A21AFA37CF0FE006F6CE88A6058A89"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/IPL-1.0.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 11789,
+      "sha256": "D5328E672FB1BFF47EE18E890784541453380081CF3771BB7B3C06FC19C7D503"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/LGPL-3.0-only.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 7651,
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/libpng-2.0.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 5345,
+      "sha256": "7317E078E2D3B5D7BA5A6159E650945153262B44B76F6700F8E9EDB261C5143E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/Libpng.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 4120,
+      "sha256": "58FE669792F9B4E0740BF75ECFE90B5326128BB2CE7E27E1C342ABD9DB4D8EA6"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/LicenseRef-BSD-3-Clause-with-PCRE2-Binary-Like-Packages-Exception.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1852,
+      "sha256": "0526625FCC746A42D3F19A0AB357D3DC8479FDBE3BFD168825498F50215C7A63"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/LicenseRef-ICC-License.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 463,
+      "sha256": "9E34FF47B3A44814E183342E7E198D127A6740E29D20E8381FBA7688DAFC79DD"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/LicenseRef-Lcs-Telegraphics.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 139,
+      "sha256": "C10225EBBD5191BFDD761B0D7752C785F2453AB665D6C454473FB12D254668AA"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 462,
+      "sha256": "9B1F50AAE6267F9D5E0CEB6775EE86450262C25EC7C0573E151FE5D3F18A4700"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/LicenseRef-SHA1-Public-Domain.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 144,
+      "sha256": "65D86B8EC6B1CD8B8F6E64FD8710274BA00D6A3C520E00DFDCD1C3D2071F3305"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/Linux-syscall-note.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 624,
+      "sha256": "3F9E477523FEBAB58DE8B716CCFBCF02E6EF1C8E7728953905E8558637ABE2A9"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/MIT-Khronos-old.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1306,
+      "sha256": "3C58021633974F9ED3C3D445A374240A5244FD039628F4D7F6F3E674BC8E6694"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/MIT-open-group.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 897,
+      "sha256": "C55D2AB72D8A4F9E9CD8FBD1379268E575E8CFA16874AFFA5899B75A6D754514"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/MIT.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1111,
+      "sha256": "D040359701C01996A017D5C515678929CD1B0625E64CB86DB44025FBB6CDF1FC"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/MPL-2.0.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 16726,
+      "sha256": "3F3D9E0024B1921B067D6F7F88DEB4A60CBE7A78E76C64E3F1D7FC3B779B9D04"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/Qt-GPL-exception-1.0.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 965,
+      "sha256": "40678D338CE53CD93F8B22B281A2ECBCAA3EE65CE60B25FFB0C462B0530846B2"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/SPL-1.0.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 23547,
+      "sha256": "F58F2F30909982445F97F1A61667261920A7CAEAB21EF5BEA1B740F5B144D141"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/Unicode-3.0.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1995,
+      "sha256": "80BB6294022D8764ADB36A9D65EBB6BD94EFB1865918A71E31E6C247607D7634"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/X11.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1338,
+      "sha256": "E2936C6509784B4F0EC27BAC74182393866FAD9422B29A70E085FF14ABA87193"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/Xerox.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 965,
+      "sha256": "B6BC52205D01E10CF43DBB7B8AEC06DCAA3B21D1486E7C9C0BEC329EE8244D8D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/LICENSES/Zlib.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1465,
+      "sha256": "D7E3139972874DC8ABDBBFCE27EC1E6F942B28279DD7D27453630A8B4610E080"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/android/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 525,
+      "sha256": "4A51CF7F724F51BEDB5FA4F9583A2762F1DB8D05E43A577E2487C7AAB2FDCE18"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/android/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 201,
+      "sha256": "F1B521E190846F34152F592C560BF714A4A0BE09E8898CF4C176B517357FA769"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/blake2/COPYING",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 17914,
+      "sha256": "4103F471877ED0BAE500752C5FCD7ECCA409D4A4A8DC2AD40437DABA60F1A2BC"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/blake2/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 384,
+      "sha256": "F966DE8AAB2518823D68CEE891E59A9511885CFA90EB42A662CCD65FF10350EF"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/D3D12MemoryAllocator/LICENSE.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1099,
+      "sha256": "1B3941C52B26D42C510AFBDF205A8B96A6D64F5A7B8EBFF0287979FD91DFD52F"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/D3D12MemoryAllocator/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 199,
+      "sha256": "EB59C386EC44AE3C45AF61B8FBE8CD7220097B8B10598B4398D4A88EDD20A6F6"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/dbus-ifaces/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 554,
+      "sha256": "892B2F9B37575708F1D99DFDE5389A72DB0180C0A8FACED78D98FE2911004588"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/double-conversion/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1527,
+      "sha256": "4AF93C12062C58058378DE2397DC1C92BBFF9DDFB1D583A01C84127557CE97CA"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/double-conversion/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 195,
+      "sha256": "736E4E063AF173E11E50A66998267313890847D10B3970D9C423AA7D5B1F97A9"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/easing/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1505,
+      "sha256": "92FAC99458F1754B73EDF50F9C9983E0EFAA06AD96E2AFD5E538C79F45B4B191"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/easing/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 175,
+      "sha256": "E412430A79B68D1449F1C0F7340FF332601733F1E910D6BDEE0C29EFD1CC053F"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/forkfd/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1148,
+      "sha256": "D0D683AE18E78FBEF90EB41168FB781920DA2D12BF80704490F0882915C18AE0"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/forkfd/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 253,
+      "sha256": "42D968E1C285DB6421D2606733C7CFA37F9FE7133244C7206A4DE1FC1FAC6587"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/LICENSE.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 26234,
+      "sha256": "BF543CDDA11864477B8D2CA2AA9AFC2AAA8F9133461B4D962ED6EC73646256A1"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 480,
+      "sha256": "74E82067AFA1561434758A74ACEA482EBFCBF11C5EB9AEBD9513912B2E0FD14F"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/builds/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 363,
+      "sha256": "F9F037B3AA4042F8FEF1804F666D1F911E86950283507C0C1F97D6667B7A6D1D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/docs/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1610,
+      "sha256": "D2097119C4CCD60E98F4543DC62C7DFC02AEEA631663753FAB811F9F1D9925B7"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/include/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 316,
+      "sha256": "FEE9C92A24E32E1B2785BA669AF47FCB152F24543C1C7EA80159A3ACEA8755D0"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/include/dlg/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 153,
+      "sha256": "AF544A2A87779BF97594EB68B3CB7E3253F01EAAE464ED103FA1F04494DA73CF"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/include/freetype/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 5650,
+      "sha256": "35193C8E80A5E9F4CDEB76E2A5B3B037151E2E88D1E6B234B4A48E8FE1DDEC75"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/include/freetype/config/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1162,
+      "sha256": "DF5A22BE2F712D41AD90DB5D231E7D2307124C45C1374722FF2BA13AB7D23777"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/include/freetype/internal/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 3683,
+      "sha256": "909F4ADBDAFDB81324F992D7556E656F2217342491C46B4FE4CDF40073E6F8B1"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/include/freetype/internal/services/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 3531,
+      "sha256": "97A8EEB6DF67542E7A0EAF45761A45CEAE2C14D76EED7255C7A1EC769B4C8081"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/patches/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 134,
+      "sha256": "512D68754CAAEAF080DADAC5313AC47DD31EBB56778DF5E4B5820C5D5FE33053"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/autofit/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 2212,
+      "sha256": "9773C5BCE390A56EEA9892CA35C72B6C203CAD8A193B28EF9B16D2B8A074AFCB"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/base/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 5836,
+      "sha256": "2E243A7122069305B6F70508F9BA817C2F485EF29CDC087E2C151C0E659FCE14"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/bdf/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 983,
+      "sha256": "1A811CD8862D8A456A03882684AA9634ED47256F26F7550C1968AEE982956621"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/bzip2/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 299,
+      "sha256": "B3D9F88017A8257981ECD26CAD1F8F42A7C81A1F26B71AF47BD156F26DEF98DC"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/cache/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1460,
+      "sha256": "2A2085D2B68A9239FDFDEFE49D4162806F53550DB656A8D709BF40DADBFDDD1F"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/cff/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1162,
+      "sha256": "3C89D7341A5E64222A46520507FEA21B9915B440C23649FCE377D4E2097D05B0"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/cid/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 824,
+      "sha256": "EA9A142A5D8E5C2FB0414E523BE3D066EAFFB5C10BBFC472B0862CCC3BAFD09E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/dlg/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 496,
+      "sha256": "EF3D9BA6C8D6D8EB60BDFA374AD81573D1DC4ADD0B2040490DD06A012AE067DD"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/gxvalid/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1535,
+      "sha256": "7CC1A0AE003FD6289657DF3FDE21E7942F9536103A04AA9CECB10F43A4E59A85"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/gzip/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 715,
+      "sha256": "CE585A28ED0118791D5A51E2B0667A5E50E7E116ED237CAB28870506DCCA4ED2"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/lzw/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 463,
+      "sha256": "86C5C68DEB2ABA5091AAAA16B8E6A9D51BB4283582DC298738EC8C7542AA1909"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/otvalid/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 839,
+      "sha256": "A06375292BCA0EF9934B79A6432E388144DE2EB31DA33315A7D2DE1B4CA0E539"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/pcf/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1188,
+      "sha256": "2926451DF1D8EC11C9487FA26CD6CCFF4C5188C69096A7798819C300A3AED983"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/pfr/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 218,
+      "sha256": "168FC22AA68F32FA17EACA050CB35C004A36FEF79F2CD73EAA19D5C1A8B10AAC"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/psaux/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1557,
+      "sha256": "DBDD875F39E2282B9D7334F5EB27B674B7691F74761B6A691329228957769F50"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/pshinter/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 776,
+      "sha256": "805D1022476B23E5AD66AC6EE06588C0C6D2DCECBC99F469D96B833A96E3619F"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/psnames/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 709,
+      "sha256": "A7C5F032D84B05A81DD21DC6A657BE2A11653A067E1EA8049E6530D8BF386EA2"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/raster/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 740,
+      "sha256": "2DED0292F09B12B2297BD0EAE860E4C836EF57BE3150E3D243A5CFF788EF2BDF"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/sdf/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 552,
+      "sha256": "F39CE75ABA0F01579DAE12C18C8C5CA32B57DE14BE5606983034B8D2BE11694F"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/sfnt/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 4423,
+      "sha256": "7A511378F4DC4F6347D85CE225268B93BF679669FD4F1BB5FD3983D470908BE5"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/smooth/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1000,
+      "sha256": "AB86045CFCE7381AFCD588B3E597F4CA126A7BF297735701710B40CE5939F0EC"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/svg/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 325,
+      "sha256": "BB956C1CCF08DC33BF5773FDEAD3F96F4CA5D67216286B134642396A33D3431D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/tools/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1588,
+      "sha256": "286C2A6C248D6555E712E16286306977D70DE40BED49FCB9B8ED547886CC0C0D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/truetype/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1131,
+      "sha256": "1ACF1003C4ED91CB6D13E646BB2278E36F5CDE01A083DD378D40731FA108F974"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/type1/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 822,
+      "sha256": "23E96A482C5D3F4B0AB598ACEFD56E70FA660E7D375FA6DCE6758B7C19924AC0"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/type42/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 722,
+      "sha256": "F6CC566F20B4DB1AF29D5A0378F1C48C281B3F87090EBC5F6D4FEEACBEEFC99A"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/src/winfonts/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1179,
+      "sha256": "8C1ACA419C426A823F36F19795E7FF6F3D9DA1F558C8CD8E3D8E207F2EB72FA7"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/gradle/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 23622,
+      "sha256": "9536D88EA948603D18E232A13F5958D67807CD80828036B082BFF171D2CF0703"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/gradle/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 165,
+      "sha256": "759382536C4D2A08D99BD3AA1AB7DE6851C2DA279A848B9C50A1C8C8597A1DB6"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/harfbuzz-ng/AUTHORS",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 201,
+      "sha256": "19BFE8F5ED100636CD24AB0C90A3F71C21D8B02D9BA00719447A0FAAB364D49F"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/harfbuzz-ng/COPYING",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1971,
+      "sha256": "BA8F810F2455C2F08E2D56BB49B72F37FCF68F1F4FADE38977CFD7372050AD64"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/harfbuzz-ng/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1004,
+      "sha256": "F8AAC0FBB28A4D32509555D25536C2A743A9F05F096749E689B3BBBC2DA2FABB"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/iaccessible2/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1668,
+      "sha256": "603FB8E9A443C95CB56C0E458A0AD17FDCADFC5BBB7E580D2199EE0145882746"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/iaccessible2/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 492,
+      "sha256": "6DE57859CA45AF3592AE9B063697B71EBFC4A9672442006F23BA8AAC5639A6D0"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/icc/LICENSE.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 463,
+      "sha256": "9E34FF47B3A44814E183342E7E198D127A6740E29D20E8381FBA7688DAFC79DD"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/icc/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 193,
+      "sha256": "C92A340EE1F5706A5424885E2360A57B6E629AEE75DBB266DF035BB8B48A06BF"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libjpeg/COPYRIGHT.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 580,
+      "sha256": "F26A2C0B6C1AB7E40444DE31CC5B112A534CC589D6FD9B93620054E9692B81C6"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libjpeg/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 5620,
+      "sha256": "96F5B328ADBB78EEAAEC6980D73FD558CB1E4D62560ED615646BC3CF5E532430"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libjpeg/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1072,
+      "sha256": "298FD22B6884AF5EFC1FF539B0296096123E7E31947154C20AA1C2B4916FC1B0"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libpng/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 5345,
+      "sha256": "16D9DAAAFBF63A31A5BDC91D4600972548FEF5AAA1244202393288DBD079C49A"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libpng/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1179,
+      "sha256": "8EB31953E125E68923A22E29BE5EDFA0D5D72171E95CB2C3900DFD231E42447E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libpsl/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 473,
+      "sha256": "E5EE769FF7274254E7F7470FB22493DA23A52A79DA7AE338D26CC35AACCEC1D5"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libpsl/src/LICENSE.chromium",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1664,
+      "sha256": "1D7F52747A9169751CDF2641A8299C0098E9ECDF9429296FFD55BDB14C9ED5B3"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/md4/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 290,
+      "sha256": "145340EF1F238800506ADEB45934FF7B93A3BF9C6793707F3FD1BEB0D7079F07"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/md4c/LICENSE.md",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1096,
+      "sha256": "D30937367D5413E7EAA218B1640B8946FF76FD34D97152F6979FD96169D5D0FC"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/md4c/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 165,
+      "sha256": "533EB7B74752133CB303979B6A4193EA21CF1ED685253E9317ACF9DD2A8D4EF2"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/md5/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 230,
+      "sha256": "F19F21ADEE8D5CC60BE7BAB48DF4B5816372E2482A5EA9B89B6F2DAC28D88AC7"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/pcre2/AUTHORS.md",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 3855,
+      "sha256": "1BBF636FA9D7E863BD524AF8A3D7229D0C8F88AD740B20F866F25CEFACA98FB7"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/pcre2/LICENCE-SLJIT",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1444,
+      "sha256": "5F216505C0F6EA3273CAEC89E766EEF93CDEB7BBB0C429F9360116D7C938FEEB"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/pcre2/LICENCE.md",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 3867,
+      "sha256": "9CF7AC6976099A1D856826D3EF1B093BD6B84489DC6100628AC79E740CF9885A"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/pcre2/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 456,
+      "sha256": "B4BC9015BBA0536BA47F23AF342DB7F9313FFA483D766DF48AAFFD03826A2E7E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/pixman/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1092,
+      "sha256": "942C4F2A80394D3F53599B8382E9F27349B95C45D92B69B84F26D404F4DD74A5"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/pixman/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 163,
+      "sha256": "9D75C909817F586B672D76C0C23561F0823944D9C99A169F095EFA4B1ECFCDD1"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/rfc6234/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1568,
+      "sha256": "7CCEBD514AAABC86192F957D773CEBF06577C12FE9F25ECD419C6CAC5DA7A14C"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/rfc6234/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 217,
+      "sha256": "43ED29977071D126A69E1AC4BB38A8808F52ECB389DB17C57D497DF2A6FBC89E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/sha1/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 256,
+      "sha256": "AADC1F36D433903ED5F5FEE50BDA90C9B8B2D2EC1715E3D5BD7FA046528ADD64"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/sha3/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 723,
+      "sha256": "297CB725090B2587DCE3770C09AF9E9B1F00B0DBBF5A6877ACE7A13AC06923E0"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/sqlite/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 229,
+      "sha256": "BE2CFB98175E002C10580EBDC0167AE009FFE1DC22577969F949F9255632277D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/tinycbor/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1074,
+      "sha256": "3C6BA0B5BFA7830505301FFB336A17B0748E0D61C4D34216E9DC98F10E40395E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/tinycbor/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 169,
+      "sha256": "434B9D897D314261691E2546A1238B7EC9CEB10608A68D4A215250579464B20D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/VulkanMemoryAllocator/LICENSE.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1099,
+      "sha256": "846D97C8B74CCAA92B9AD031140A04363B3B3985F318094552F297B8BDA1C68E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/VulkanMemoryAllocator/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 199,
+      "sha256": "F9B79E1D2B9D812724EAA634D03432B397726EDAE6D2954D4E5D43A15B2C98B8"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/wasm/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 292,
+      "sha256": "040913A59319231D357AC84985D0E650427C81D5BF36BA9B0CAB08BC7FA21FE1"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/wintab/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 192,
+      "sha256": "EB87802228CBEBB422E792089BC65E15F23F189785402DC7938C463F39E68C5D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/xcb/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1246,
+      "sha256": "82775191BC05F85B40404D77BB69B1EDEAEB4033F48387E9E5EAB4DD67F5D6F1"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/xcb/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 277,
+      "sha256": "B265F038910678D718091C4C524F89943773284AC318F44DBBB40E586E160DA7"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/zlib/LICENSE",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1465,
+      "sha256": "D7E3139972874DC8ABDBBFCE27EC1E6F942B28279DD7D27453630A8B4610E080"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/zlib/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 174,
+      "sha256": "C0042F9FF90A7F3105AFA2036E7DEFFC71F3260806080653CEB639E77C57EA87"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/corelib/mimetypes/3rdparty/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 153,
+      "sha256": "4C1597DD9DCC955376EBB3B098B4496DA2F7A8C46DED7D38ACF29D2D582B511B"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/entrypoint/qtentrypoint_win.cpp",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1936,
+      "sha256": "B54D2A90EECB4D8E2D658B5BA8037F05B8F1A110C9F80BC6E46308E43E50DFE3"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testinternal/3rdparty/cmake/Copyright.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 5477,
+      "sha256": "0676E30827684487AA0EA8F72F01E9460A6320FA34A2888DF0AD1DD3E8A06EB8"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testinternal/3rdparty/cmake/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 183,
+      "sha256": "E55B90C467F6C9ABAAC3E6F490895B004A280F1D4D840F04F8A7EF09653C50A8"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/catch2/LICENSE.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1338,
+      "sha256": "C9BFF75738922193E67FA726FA225535870D2AA1059F91452C411736284AD566"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/catch2/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 197,
+      "sha256": "121E36398DEAD75496836A6B325694C1FFFC2BB7EF22C8F2C51DC15EE69CB609"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/cycle/LICENSE.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1023,
+      "sha256": "CB5AEDB296C5246D1F22E9099F925A65146F9F0D6B4EEBBA97FD27A6CDBBAB2D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/cycle/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 398,
+      "sha256": "D1C2B7AB794204C5F8150DC73A70048AD17DEE8B08F34AD2151BC235276AB607"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/linux/LICENSE.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 18458,
+      "sha256": "ED71CFCA021790F74094E9810F42E31288E7F43CF00C8D9AC8D6F904124BD815"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/linux/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 364,
+      "sha256": "2CEB6A4CC6670695FCF47D89656EE867604533780E9D11075BF6E56008DB3A72"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/valgrind/LICENSE.txt",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 1667,
+      "sha256": "EC72EEBD6326165156787DA828CAAA18386489387AEFAA073C9BD40B8B2A400E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/valgrind/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 255,
+      "sha256": "6C603AC7C75CA1FE3E32AB90AEE81CBA53726401938932C8A0FA6B04048A84D4"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/tests/auto/corelib/mimetypes/qmimedatabase/3rdparty/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 179,
+      "sha256": "918C31AE9E649A576E4F5B4E9A17E7E7ADD86663FE470CEA5C6D073413AFF2AD"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/util/x86simdgen/3rdparty/REUSE.toml",
+      "module": "qtbase",
+      "kind": "preserved-notice",
+      "bytes": 253,
+      "sha256": "BDCC9CF6DBE8386BFA474522E71736F748E4DF5AC61302737A16A522D4800F30"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/cmake/3rdparty/extra-cmake-modules/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 439,
+      "sha256": "1723EC7150C2181F373795FEB78E2C1BCD1EC1D748471E4E02048C2B32489157"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/cmake/3rdparty/kwin/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 555,
+      "sha256": "598CB7392971E68CA71039CE3A8063E4FC4504A170D7AD4B80B73857511376A3"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/android/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 373,
+      "sha256": "120710D661892CEB44A94556C56998795372334674C79710947282E8279EF415"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/blake2/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 926,
+      "sha256": "BAB552307BDD03ED9A4CF7F8F1397C3D18D4DBEE19EE576033284104785245BE"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/D3D12MemoryAllocator/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 727,
+      "sha256": "182D7E5ED90DC592B01A50635C85F4039CA6F25F88EC4700B08FAF6F07FDA09E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/double-conversion/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 771,
+      "sha256": "B68E633437CCE59DEC970776F5C4D3B9FC39C5D9EDAEC03E8894591A6721D1ED"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/easing/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 471,
+      "sha256": "77D67A1DB5882BB0B9A1278B014885BEE45A4C059D1DA9F835B6DA5BC4B9C93D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/forkfd/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 493,
+      "sha256": "525FD890017A3966F542DA42A9FF0CA2A0D71BC45F80A4871DE3E0BD0F612612"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 5328,
+      "sha256": "3BB2EABC9379310A420EC2461E85A3224396CF8BA15FD53591D770CA16715553"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/ZLIB-LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 962,
+      "sha256": "2B1F5D615382A151AF3EB71462AD17D89E2EFEE8FA7664058D35D3D9237EBB19"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/BDF-LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 2305,
+      "sha256": "E4E792F29E66750F2E410FD7B50A567652C180F6EE15E1A4DFA0BB5CDE524537"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/freetype/PCF-LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 2218,
+      "sha256": "6938597BFDECA0DB191A8F9EDE52EAF2482C2C71A0094C084747A1235F9958FE"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/gradle/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 581,
+      "sha256": "D8950522E452E35C44D3660DDEFFF2F28F2DD342B500A4ACB8FE1B9997627849"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/harfbuzz-ng/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 1646,
+      "sha256": "C998C9784A4A0021C2F68632A9E8CD5589DBC7F7336FEEB156A4240B6B32D718"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/iaccessible2/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 932,
+      "sha256": "FC3B6C3ACEEB15B92302E1375AA8F48A692B39CE5250458E88AE137CEF2922C6"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/icc/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 775,
+      "sha256": "509DA9BD2B3F769C730AA4627B1080D65F39B0ECD4130111C9E1122E13CD35B5"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libjpeg/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 859,
+      "sha256": "874587F89655D70E9926048B2C9F4F2C15F8795DC64E4A492F753CEE06ED6432"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libjpeg/ijg-license.txt",
+      "module": "qtbase",
+      "kind": "LicenseFiles",
+      "bytes": 1815,
+      "sha256": "1CB448F5E2E6D3ACA60943F4EEE1A04675628DC0266A074A42BC1560EBC28D61"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libpng/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 1763,
+      "sha256": "2970938574023E02B60B5B7C75D21E11B7E4476CDC2C1A5386B01AC5BC678943"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libpsl/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 2498,
+      "sha256": "52D2286E673CDC88DD0B02DB46352F994DAC2C359E4632644DC4D595CF144CE7"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/libpsl/PSL-LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 16726,
+      "sha256": "3F3D9E0024B1921B067D6F7F88DEB4A60CBE7A78E76C64E3F1D7FC3B779B9D04"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/md4/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 574,
+      "sha256": "34BDA63A2FCC23C83F2E5364CCD394553B4BAA505B1F79DED9CC2161C56A9B4C"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/md4c/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 673,
+      "sha256": "59098B9262AC268E73495CB1B1603B5C899D5C532DB6CA96E69FFAC7062445F5"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/md5/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 446,
+      "sha256": "20B0F1B17CCD1BD5E8D763B1CDCA4B095B8F0C037644B5EE18154536B7D8425E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/pcre2/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 1915,
+      "sha256": "CB7AE8B37A3E8E1D2A20FBE44FC5306ED5CDA404035A667FED56F7139636048E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/pixman/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 597,
+      "sha256": "F1DC159B63BF84A4C9C367E8FF79AA748B63F5FC622D5080C0A7DDD98DDC7AC7"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/rfc6234/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 660,
+      "sha256": "FA24413BDC5015FC7FC84297FA17D4C8A598F8F7C76B9495A6E6B26A77B4A324"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/sha1/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 618,
+      "sha256": "53CAB2C771F7F7FFBF6A58FF759E5846B746E91D98DFE467D5145EDF8CD7D306"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/sha3/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 2357,
+      "sha256": "C14F8C923BDDE00E14D52AC826475F29C690B0615337E641D818D3243EB26A87"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/sha3/BRG_ENDIAN_LICENSE",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 645,
+      "sha256": "2FED6F252CA4A7E813811DE3CD3CD08183EDD4138BDEE909410EF6EEE394E82C"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/sha3/CC0_LICENSE",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 7013,
+      "sha256": "1F2786E2C5BEFEB4DCBA6638DB6528BF96EF5D2CF24BC85AB5A81EF00ABEF59D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/siphash/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 793,
+      "sha256": "8614947DFC0CA1D21AAD2F88B4400598262AB8C08AA87C4F7ACC0C2DE6E5619E"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/sqlite/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 799,
+      "sha256": "0BB4312DFE1E3896713954ACCEDB0ED50453268F0983A7C10FA5DF038D2B7E89"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/tinycbor/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 691,
+      "sha256": "3CD7042C743868AA67D792B85CD1E113B02CFA5273EA727A5A40915C9163B377"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/VulkanMemoryAllocator/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 699,
+      "sha256": "D00A867E3DF29E108BD60194DCAD6DA8D9EA89D185C8AFD93A00429628156346"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/wasm/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 730,
+      "sha256": "2019D37665BFB2CE7D4931D0BDF7427EA178919399CF37C0FEF14A229144936B"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/wasm/DEJAVU-LICENSE",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 8816,
+      "sha256": "7A083B136E64D064794C3419751E5C7DD10D2F64C108FE5BA161EAE5E5958A93"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/wintab/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 602,
+      "sha256": "B879EA91B719531D45E1CFE33D2241D060A9260200BD91A09ADA074B16063F9C"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/xcb/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 825,
+      "sha256": "8BAE8861957BC0168D586D24DA6E8E93EDCEB11796811C5F614D211F4674D437"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/3rdparty/zlib/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 731,
+      "sha256": "6A37EAF51D8EBB7BD19E01A9A2334DA8557409ACB520EF6D1813C6D742771030"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/corelib/kernel/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 564,
+      "sha256": "35639D420FB5AAC3E5A702269E3CB8E9E18F5145DD36003EA6DEE45ED4AF4E2D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/corelib/kernel/QEVENTDISPATCHER_CF_LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 1501,
+      "sha256": "E9E5B9F66D21C0E88A4179525AB39CD8D7EAC9AF78A8404F322C32B0874783D5"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/corelib/mimetypes/3rdparty/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 1383,
+      "sha256": "45B454443CC0D5450FDE18B76B555700DBFF0937B925B8482290950330C9B370"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/corelib/text/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 2058,
+      "sha256": "6A2AC10D23F98E987A7176281CC1AF6DA01F5289A7B41A473E20F023A952C0E4"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/dbus/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 937,
+      "sha256": "C03E804FB402AD8CE4C2268CF2F820493A1C5C06D624FB61A24EAA0BC2FCB66D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/dbus/LIBDBUS-1-LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 27248,
+      "sha256": "AD90AA08BB1A9B7056AA51E2E215B36630855457CDE5DFFD36AA0FAA7B169F24"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/opengl/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 1526,
+      "sha256": "50FCB16F440DF6E7EA2778DBC81CC8CAEB0DBD770DAA4EFDDD125ADACAA6CF36"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/opengl/KHRONOS_LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 1084,
+      "sha256": "2E484F3C26FF5008C704A3CA9DD809D43F24A004A1ABB6C202660FBFF0D19715"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/painting/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 2256,
+      "sha256": "6827F1FEC09E4A3C89381F0724C998243E412A56A47735AB5B899D470FB47DDF"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/painting/QIMAGETRANSFORM_LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 3004,
+      "sha256": "46B3CBFA2F2946B93291506351E9BE1DD0A28D2A53260F5AA488ABD36FBECA9D"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/painting/XCONSORTIUM_LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 2294,
+      "sha256": "A216B01291EB38FC1AF93CFCCF1FC67B48D9923612E517C2A695E95B3F03C22C"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/rhi/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 782,
+      "sha256": "2F362DFBFB7D8F4B3998D3ADDE8D2F2124DF588E6A48F177E335679FDED585ED"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/rhi/MiniEngine_LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 1077,
+      "sha256": "CF248820BF1178370BB4F1670A59F8748D46BC96D0F64080CD631511C6046409"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/text/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 807,
+      "sha256": "CC5C2EEDAE7D50DF84088F1F73A7E3B4720EB3DE07019E0DDCC97AF74E631671"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/text/AGLFN_LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 1425,
+      "sha256": "40818155548FF41C67D3A40EDF355E9658992B292C227F4C1147425CEDC746C6"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/vulkan/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 801,
+      "sha256": "4DCB0C227CE6D6079C413E226D67F19A477338AF1945DE4D7C841BA992CF0505"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/gui/vulkan/LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 11473,
+      "sha256": "5F618873B0CDD1E84C611C5529212C2524BFC887BDFD7D1F3B568BAD3C649612"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/plugins/platforms/cocoa/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 720,
+      "sha256": "15D905306337542288D20AAC31C3CFFBCF28A488DBA6236EAB17CC8B86F51975"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/plugins/platforms/cocoa/COCOA_LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 1501,
+      "sha256": "E9E5B9F66D21C0E88A4179525AB39CD8D7EAC9AF78A8404F322C32B0874783D5"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testinternal/3rdparty/cmake/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 515,
+      "sha256": "F194EA33CF9B0D44615A6FA9EB4D45E7796B50CB0A88CDADF5D9B15745BF52F0"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/catch2/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 821,
+      "sha256": "9D48FA7B86E9B0412B699E0411815766914478592DA5BBB614A45443C14504B0"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/cycle/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 1176,
+      "sha256": "A3FF23399B7ECE1A0C6A9696E4F8C671A495F92A74C9C53EA5B66F27BD56B056"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/linux/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 1678,
+      "sha256": "44299F5C08474790C164E73894B81B650463F9E40121041CEFDEEBD9B5EB734C"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/src/testlib/3rdparty/valgrind/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 979,
+      "sha256": "9FAB633484B2C78F3FDC789F0E9DFDA493B425978D2164C06BF86F733BD878BF"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/util/gradientgen/qt_attribution.json",
+      "module": "qtbase",
+      "kind": "attribution-metadata",
+      "bytes": 596,
+      "sha256": "A25F10E47D2B7D9369486D94602AD01B60382B9F032CBBD6F465D87328D8B0E0"
+    },
+    {
+      "path": "qtbase/here-src-6-c9a145a2ff.clean/util/gradientgen/WEBGRADIENTS_LICENSE.txt",
+      "module": "qtbase",
+      "kind": "LicenseFile",
+      "bytes": 1062,
+      "sha256": "9BE732E45B638C74F9C0E5248541DD54DC7E8E9A5545DF96B5C4B7C9AC0C68BA"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/.cmake.conf",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 289,
+      "sha256": "536D2E4C0AE5E769575A9BA134445F4B8559D0578A53CA363E62D6D1349D170D"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/LICENSES/Apache-2.0.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 10398,
+      "sha256": "E3BA223BB1423F0AAD8C3DFCE0FE3148DB48926D41E6FBC3AFBBF5FF9E1C89CB"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/LICENSES/BSD-3-Clause.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 1469,
+      "sha256": "9F0490F18656C6F2435BD14F603EF0C96434D1825615363DCE43ABB42ED1DCCE"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 22955,
+      "sha256": "110535522396708CEA37C72A802C5E7E81391139F5F7985631C93EF242B206A4"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/LICENSES/GPL-2.0-only.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 18092,
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/LICENSES/GPL-3.0-only.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 35147,
+      "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/LICENSES/LGPL-3.0-only.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 7651,
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 462,
+      "sha256": "9B1F50AAE6267F9D5E0CEB6775EE86450262C25EC7C0573E151FE5D3F18A4700"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/LICENSES/MPL-2.0.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 16727,
+      "sha256": "66A3107D5AD6A058AAB753EAAC2047CCB2ED0E39465DD0FE5844DA3E300D5172"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/LICENSES/Qt-GPL-exception-1.0.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 965,
+      "sha256": "40678D338CE53CD93F8B22B281A2ECBCAA3EE65CE60B25FFB0C462B0530846B2"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/eigen/COPYING.BSD",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 1511,
+      "sha256": "85DA7C29C2D2F2E6B3116B1219584CB513474CAB797B3312A779BE4C2181E51E"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/eigen/COPYING.MPL2",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 16726,
+      "sha256": "FAB3DD6BDAB226F1C08630B1DD917E11FCB4EC5E1E020E2C16F83A0A13863E85"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/eigen/COPYING.README",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 779,
+      "sha256": "C83230B770F17EF1386EA1FD3681271DD98AA93646BDBFB5BFF3A1B7050FFF9D"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/eigen/REUSE.toml",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 1826,
+      "sha256": "E5F9FA2B14D08E98EA3D0465405715B19EC797FD783CA3A259358233E78670C6"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/ffmpeg/LICENSE.BSD-2-Clause.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 1267,
+      "sha256": "F32FB3B417A194167CFAD068223FC975BA96C5960513A10F66A3C28720AEC1DF"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/ffmpeg/LICENSE.BSD-Source-Code.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 1301,
+      "sha256": "1F1B677D26AB73E159A55C3A914CF12D888E18A9D0D469FEDAB4AA6E5A48B1C0"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/ffmpeg/LICENSE.BSL-1.0.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 1338,
+      "sha256": "84C6EF3EA9E3254A54D0ACF5D3E0C61AE011B8FEF7DD6940591CF060E6380A8F"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/ffmpeg/LICENSE.IJG.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 4244,
+      "sha256": "7658542977BFDCED9E1059A6C934CE4281DE76D103B831007B825917DC62511A"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/ffmpeg/LICENSE.ISC.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 823,
+      "sha256": "F2EC607F67BB0DD3053B49835B02110D5CD0F8EB6DA3AAC4DC0B142A6B299BE9"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/ffmpeg/LICENSE.LGPL-2.1-or-later.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 25906,
+      "sha256": "1CCF09BF2F598308DF4BED9CD8E9657DC5CD0973D2800318F2E241486E2EDF3F"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/ffmpeg/LICENSE.MIT.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 1078,
+      "sha256": "B85DCD3E453D05982552C52B5FC9E0BDD6D23C6F8E844B984A88AF32570B0CC0"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/ffmpeg/LICENSE.Zlib.txt",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 838,
+      "sha256": "BFB1112D49DB5B1DAECDFEF24BD7E2F3EA0BAFB33AA67AA0AB51E2BF8407C03D"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/pffft/LICENSE",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 1919,
+      "sha256": "A46200592EB193853527250DA098E6BB0C75424E7A2C7DB8DA526C4F301C3D88"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/pffft/REUSE.toml",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 369,
+      "sha256": "CD5191EEFBAC593C600D70AB2BEA12DA4EC6C1ADFF025AF950A5F098FEB963E2"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/resonance-audio/AUTHORS",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 144,
+      "sha256": "FA47BCA18C1369F441AAF8DBBDEF90AD51882A2DFC2D0B0DDC35C14BAC466B11"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/resonance-audio/LICENSE",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 11358,
+      "sha256": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/resonance-audio/REUSE.toml",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 175,
+      "sha256": "D01F0601653D5C3578975B033B28149CA4B7F58EA07667B6E4C5DF75147CA5AB"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/resonance-audio/third_party/SADIE_hrtf_database/LICENSE",
+      "module": "qtmultimedia",
+      "kind": "preserved-notice",
+      "bytes": 9138,
+      "sha256": "48B2D5072817BA4CF7C2EE7AF788434D001F43D36EF05E0CE5B76D7CF7262B50"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/eigen/qt_attribution.json",
+      "module": "qtmultimedia",
+      "kind": "attribution-metadata",
+      "bytes": 654,
+      "sha256": "A1223EF51487DD2EEF35B638444295E57C24A53EB20E812F8ADE05FEB5473725"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/eigen/COPYRIGHTS",
+      "module": "qtmultimedia",
+      "kind": "CopyrightFile",
+      "bytes": 2445,
+      "sha256": "8B69CF3AC3DDD34DF478C4AE6EAACF5E6C63EA7EE6403C8DAD97E4D1438BC3C4"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/ffmpeg/qt_attribution.json",
+      "module": "qtmultimedia",
+      "kind": "attribution-metadata",
+      "bytes": 3438,
+      "sha256": "C3F51ABB259F8218B2C1677F1AC2A0F1011B3A2ADD85E11A8A9BBFA893CBC53E"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/pffft/qt_attribution.json",
+      "module": "qtmultimedia",
+      "kind": "attribution-metadata",
+      "bytes": 565,
+      "sha256": "3564964692057F31B89A6D3ED85AEB9A2F3389CCC1A67F738600133C88AC1A13"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/pffft/COPYRIGHTS",
+      "module": "qtmultimedia",
+      "kind": "CopyrightFile",
+      "bytes": 134,
+      "sha256": "B522F821DF94DA3BAD917E98EF04817B3AF421C3B8C23E8247AE7E517B289934"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/resonance-audio/qt_attribution.json",
+      "module": "qtmultimedia",
+      "kind": "attribution-metadata",
+      "bytes": 592,
+      "sha256": "4BF5DF4BC5E9EEF162122395B7EC68A0E0CD9C674E651C607934A673D267DA53"
+    },
+    {
+      "path": "qtmultimedia/here-src-6-9dc4985106.clean/src/3rdparty/resonance-audio/COPYRIGHTS",
+      "module": "qtmultimedia",
+      "kind": "CopyrightFile",
+      "bytes": 43,
+      "sha256": "2513C5AD87CE9E7FEED2C9A159D336F0A0D12FF93ADCD411F7A15A1AB678F7AC"
+    },
+    {
+      "path": "qtsvg/here-src-6-5892a193db.clean/.cmake.conf",
+      "module": "qtsvg",
+      "kind": "preserved-notice",
+      "bytes": 289,
+      "sha256": "536D2E4C0AE5E769575A9BA134445F4B8559D0578A53CA363E62D6D1349D170D"
+    },
+    {
+      "path": "qtsvg/here-src-6-5892a193db.clean/LICENSES/BSD-3-Clause.txt",
+      "module": "qtsvg",
+      "kind": "preserved-notice",
+      "bytes": 1469,
+      "sha256": "9F0490F18656C6F2435BD14F603EF0C96434D1825615363DCE43ABB42ED1DCCE"
+    },
+    {
+      "path": "qtsvg/here-src-6-5892a193db.clean/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "module": "qtsvg",
+      "kind": "preserved-notice",
+      "bytes": 22955,
+      "sha256": "110535522396708CEA37C72A802C5E7E81391139F5F7985631C93EF242B206A4"
+    },
+    {
+      "path": "qtsvg/here-src-6-5892a193db.clean/LICENSES/GPL-2.0-only.txt",
+      "module": "qtsvg",
+      "kind": "preserved-notice",
+      "bytes": 18092,
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643"
+    },
+    {
+      "path": "qtsvg/here-src-6-5892a193db.clean/LICENSES/GPL-3.0-only.txt",
+      "module": "qtsvg",
+      "kind": "preserved-notice",
+      "bytes": 35147,
+      "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903"
+    },
+    {
+      "path": "qtsvg/here-src-6-5892a193db.clean/LICENSES/LGPL-3.0-only.txt",
+      "module": "qtsvg",
+      "kind": "preserved-notice",
+      "bytes": 7651,
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768"
+    },
+    {
+      "path": "qtsvg/here-src-6-5892a193db.clean/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "module": "qtsvg",
+      "kind": "preserved-notice",
+      "bytes": 462,
+      "sha256": "9B1F50AAE6267F9D5E0CEB6775EE86450262C25EC7C0573E151FE5D3F18A4700"
+    },
+    {
+      "path": "qtsvg/here-src-6-5892a193db.clean/LICENSES/Qt-GPL-exception-1.0.txt",
+      "module": "qtsvg",
+      "kind": "preserved-notice",
+      "bytes": 965,
+      "sha256": "40678D338CE53CD93F8B22B281A2ECBCAA3EE65CE60B25FFB0C462B0530846B2"
+    },
+    {
+      "path": "qtsvg/here-src-6-5892a193db.clean/src/svg/qt_attribution.json",
+      "module": "qtsvg",
+      "kind": "attribution-metadata",
+      "bytes": 464,
+      "sha256": "89C0B12B30CE72D2CDA2938875AEC15BD47C6C7D8D05F41DB9840F94832CCFDD"
+    },
+    {
+      "path": "qtsvg/here-src-6-5892a193db.clean/src/svg/XSVG_LICENSE.txt",
+      "module": "qtsvg",
+      "kind": "LicenseFile",
+      "bytes": 1185,
+      "sha256": "3A946598A9F674D44DF764279CA0B85B5D6FABA08F3BC75D8E0FCF6CD729A9BD"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/.cmake.conf",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 280,
+      "sha256": "FB5D7F8E6B55F1607EC0059199F7CA5C1807B3A17E59A83659889BFAC70EF358"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/AML-glslang.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 2373,
+      "sha256": "B5545D31E12C303E8EE9A0CC203D0A2A8D6E02729DD450D4CDA5F8FF0E1193D0"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/Apache-2.0.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 10280,
+      "sha256": "074E6E32C86A4C0EF8B3ED25B721CA23ACA83DF277CD88106EF7177C354615FF"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/Bison-exception-2.2.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 673,
+      "sha256": "193FF9D6E52B80B654FA9402FF351FD1F9F855381F31062A5B7400FD82409B29"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/BSD-3-Clause.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 1469,
+      "sha256": "9F0490F18656C6F2435BD14F603EF0C96434D1825615363DCE43ABB42ED1DCCE"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/GFDL-1.3-no-invariants-only.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 22955,
+      "sha256": "110535522396708CEA37C72A802C5E7E81391139F5F7985631C93EF242B206A4"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/GPL-2.0-only.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 18092,
+      "sha256": "8177F97513213526DF2CF6184D8FF986C675AFB514D4E68A404010521B880643"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/GPL-3.0-only.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 35147,
+      "sha256": "8CEB4B9EE5ADEDDE47B31E975C1D90C73AD27B6B165A1DCD80C7C545EB65B903"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/GPL-3.0-or-later.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 32184,
+      "sha256": "1A52218B744FA3A722DF8D0477A2041571EC2CECDB9906CF1F626FC1A2CF0D6F"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/LGPL-3.0-only.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 7651,
+      "sha256": "DA7EABB7BAFDF7D3AE5E9F223AA5BDC1EECE45AC569DC21B3B037520B4464768"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/LicenseRef-MIT-Khronos-old.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 1305,
+      "sha256": "FBEACA472F4F70E276DD1106CA5097435967A22AD6C1D8200AEF7AD9F70AAF3F"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/LicenseRef-Qt-Commercial.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 462,
+      "sha256": "9B1F50AAE6267F9D5E0CEB6775EE86450262C25EC7C0573E151FE5D3F18A4700"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/MIT.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 1111,
+      "sha256": "D040359701C01996A017D5C515678929CD1B0625E64CB86DB44025FBB6CDF1FC"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/LICENSES/Qt-GPL-exception-1.0.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 965,
+      "sha256": "40678D338CE53CD93F8B22B281A2ECBCAA3EE65CE60B25FFB0C462B0530846B2"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/src/3rdparty/glslang/COPYRIGHT.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 314,
+      "sha256": "7A0986B241205C038DCEA76B343DD9B7030A424B644A7D59585200824831DAE8"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/src/3rdparty/glslang/LICENSE.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 54705,
+      "sha256": "ADB783E734E906D1F46DB5DF29991DBDE84BDB0CEAB502AC2FEBB44FE3C2B5F4"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/src/3rdparty/glslang/REUSE.toml",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 733,
+      "sha256": "C76EBF9239CBB7DA17C6C8236967A697CAFCD38EAA8D4C6EFC1163D01FFD4E65"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/src/3rdparty/SPIRV-Cross/COPYRIGHT.txt",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 243,
+      "sha256": "AFE3458E2431963DEF8B2C1520D342566725A07B46344AA34C5D327531BF2873"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/src/3rdparty/SPIRV-Cross/LICENSE",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 11358,
+      "sha256": "CFC7749B96F63BD31C3C42B5C471BF756814053E847C10F3EB003417BC523D30"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/src/3rdparty/SPIRV-Cross/REUSE.toml",
+      "module": "qtshadertools",
+      "kind": "preserved-notice",
+      "bytes": 111,
+      "sha256": "AF89CDC46B7589AAFF2A331C6886D10B832BBFCBBAC5F518A250A1A6D7785377"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/src/3rdparty/glslang/qt_attribution.json",
+      "module": "qtshadertools",
+      "kind": "attribution-metadata",
+      "bytes": 777,
+      "sha256": "D00282C07CF26AA90884D2BFDF9D897945D2AE4426A67752304E1FECAC3EABAC"
+    },
+    {
+      "path": "qtshadertools/here-src-6-38e26571ad.clean/src/3rdparty/SPIRV-Cross/qt_attribution.json",
+      "module": "qtshadertools",
+      "kind": "attribution-metadata",
+      "bytes": 615,
+      "sha256": "B872EDCCC819552D75EBBF3D997327ACF1797A350BE02FAB0903317FB221DC96"
+    }
+  ],
+  "dependencyLicenseCompletenessGuaranteed": false,
+  "caveats": [
+    "Conservative notice superset, not a distribution-compliance certification or link-time bill of materials.",
+    "Does not preserve complete corresponding dependency source, patches, build instructions or installation information.",
+    "Missing module sources and unresolved references require review before any future publication.",
+    "No uploads, source-code modifications, deletions or moves were performed."
+  ]
+}

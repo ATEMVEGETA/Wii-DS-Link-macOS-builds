@@ -1,0 +1,6 @@
+sources/
+build/
+out/
+qt-sdk/
+__pycache__/
+.venv/
