@@ -32,7 +32,7 @@ namespace
 {
 using namespace melonDS;
 namespace Bridge = melonDS::WiiDSBridge;
-constexpr std::array<u8,6> WiiMAC{0,0x17,0xab,0x4d,0xb9,0xe0};
+constexpr std::array<u8,6> WiiMAC{0,0x17,0xab,0x57,0x66,0xf5};
 constexpr char Hello[] = "WIIDSBRIDGE/1 DOLPHIN HELLO";
 constexpr unsigned PlayerCount = 8;
 constexpr u16 PlayerMask = 0x01fe;
@@ -141,8 +141,8 @@ std::string Discover(UDP& peer,unsigned port)
     Require(reply.Port==port,"ACK returned from wrong listener");
     const std::string ack(reply.Bytes.begin(),reply.Bytes.end());
     const std::string prefix="WIIDSBRIDGE/1 MELONDS ACK ";
-    Require(ack.size()==prefix.size()+16+3 && ack.compare(0,prefix.size(),prefix)==0 &&
-            ack.substr(ack.size()-3)==" M2","missing multi-client ACK capability");
+    Require(ack.size()==prefix.size()+16+6 && ack.compare(0,prefix.size(),prefix)==0 &&
+            ack.substr(ack.size()-6)==" P1 M2","missing parent-identity/multi-client ACK capability");
     Require(ack.substr(prefix.size(),16).find_first_not_of("0123456789ABCDEF")==std::string::npos,
             "ACK nonce is not 16 uppercase hexadecimal digits");
     return ack;
@@ -335,11 +335,16 @@ int main()
         for (unsigned i=0;i<PlayerCount;++i)
         {
             const auto body=Beacon(i);
-            Send(peer,i,2,body);
+            std::vector<u8> parent(WiiMAC.begin(),WiiMAC.end());
+            parent.insert(parent.end(),body.begin(),body.end());
+            Send(peer,i,12,parent);
             for (unsigned copy=0;copy<3;++copy)
             {
                 const auto beacon=Receive(i);
                 Require(beacon.size()>200 && beacon[12]==0x80 &&
+                        Bridge::ParentBSSID(Owners[i])==WiiMAC &&
+                        std::equal(WiiMAC.begin(),WiiMAC.end(),beacon.begin()+22) &&
+                        std::equal(WiiMAC.begin(),WiiMAC.end(),beacon.begin()+28) &&
                         std::search(beacon.begin(),beacon.end(),body.begin()+2,body.end())!=beacon.end(),
                         "beacon payload crossed context boundary");
                 const auto notice=peer.Receive();

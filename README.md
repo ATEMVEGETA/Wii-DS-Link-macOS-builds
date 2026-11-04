@@ -9,7 +9,7 @@ repositories. No Playnite source, build or profile is included.
 Runs are manual-only. A job is skipped if this repository is private; the
 runner also verifies public visibility before building and before saving
 results. Do not change visibility while a run is active. Runner labels are
-restricted to macos-14, macos-15 and macos-15-intel, not larger runners.
+restricted to macos-15 and macos-15-intel, not larger runners.
 
 Generated packages and diagnostic archives are encrypted with a committed RSA
 public key and stored only as encrypted draft release assets. The private key
@@ -18,8 +18,8 @@ no usable public emulator downloads here. Do not publish these draft releases.
 
 Pinned public sources:
 
-- melonDS: aca81fea811cc96b2cd216dd8b3f6f447a601c8f (public beta.2)
-- Dolphin: 22060863a04f086bd0c51a6fdf7500e27470d35d (public beta.1)
+- melonDS: 60a07cca86189ac8b9e0cd1cc6516f575ed60ca3 (beta.3 code plus documentation maintenance)
+- Dolphin: b24e2427a0ab5aec6102f3b5014d581699b9b4a4 (public beta.3)
 - Qt: official universal macOS SDK 6.8.3, via aqtinstall 3.3.0.
 
 Separate native arm64 and x86_64 bundles initially target macOS 15. Dependencies,

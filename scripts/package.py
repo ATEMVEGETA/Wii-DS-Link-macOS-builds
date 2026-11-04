@@ -13,8 +13,8 @@ import shutil
 import subprocess
 
 PINS = {
-    "melonDS": "aca81fea811cc96b2cd216dd8b3f6f447a601c8f",
-    "Dolphin": "22060863a04f086bd0c51a6fdf7500e27470d35d",
+    "melonDS": "60a07cca86189ac8b9e0cd1cc6516f575ed60ca3",
+    "Dolphin": "b24e2427a0ab5aec6102f3b5014d581699b9b4a4",
 }
 DEPENDENCIES = ("sdl2", "libarchive", "zstd", "faad2", "enet")
 NOTICE_NAMES = ("LICENSE*", "LICENCE*", "COPYING*", "COPYRIGHT*", "NOTICE*", "PATENTS*")

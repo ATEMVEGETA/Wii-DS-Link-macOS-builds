@@ -241,7 +241,7 @@ def smoke(app: Path, output: Path) -> dict:
                             except (socket.timeout, ConnectionRefusedError):
                                 continue
                             text = response.decode("ascii", errors="strict")
-                            if address[0] != "127.0.0.1" or not re.fullmatch(r"WIIDSBRIDGE/1 MELONDS ACK [0-9A-F]{16} M2", text):
+                            if address[0] != "127.0.0.1" or not re.fullmatch(r"WIIDSBRIDGE/1 MELONDS ACK [0-9A-F]{16} P1 M2", text):
                                 raise RuntimeError("Unexpected private frontend discovery response")
                             if address[1] in replies and replies[address[1]] != text:
                                 raise RuntimeError("Repeated discovery changed a live socket identity")
