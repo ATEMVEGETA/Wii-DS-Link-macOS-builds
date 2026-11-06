@@ -24,6 +24,17 @@ adds explicit `IdentitySlot` assertions. Dolphin has six production-helper
 groups covering peer capacity/AIDs, real reply aggregation, departure/rejoin,
 stale rounds, watchdog/order behavior, malformed records and legacy isolation.
 
+The existing 13 transport, six multiplayer and eight identity groups remain.
+Eight additional beacon groups compile the real NintendoGameInfoLength helper
+and POSIX transport encoder. They cover every valid user-data size 0-112,
+opaque fallback for oversized lengths and unknown versions, full multiboot
+versus short application advertisements, actual radio IE boundaries/prefixes,
+parent identity, sequence/channel preservation and cached phase replacement.
+A negative control shows why the old padded record fails the declared-length
+predicate. This does not execute the retail game SDK. Header-only mode
+(`-DWIIDS_BEACON_HEADER_ONLY`) runs six portable properties on Windows too;
+it is not a substitute for native Mac packet tests.
+
 Reports include compiler version, native architecture, source/input hashes,
 compile output, complete test stdout and test counts. A successful run does
 not prove the app bundle starts, JIT works, a retail game connects, saves are

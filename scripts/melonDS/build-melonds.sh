@@ -96,7 +96,7 @@ cmake -S "$source_dir" -B "$build_dir" -G Ninja \
   '-DMELONDS_VERSION_SUFFIX= - WiiDS Link macOS Experimental' \
   -DMELONDS_GIT_HASH="$revision" \
   -DMELONDS_GIT_BRANCH=wiids-macos-experimental \
-  -DMELONDS_BUILD_PROVIDER=PrivateMacOSBuild
+  -DMELONDS_BUILD_PROVIDER=PublicMacOSBuild
 cmake --build "$build_dir" --parallel "$jobs"
 
 python3 "$script_dir/deploy.py" \

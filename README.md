@@ -18,8 +18,8 @@ no usable public emulator downloads here. Do not publish these draft releases.
 
 Pinned public sources:
 
-- melonDS: 60a07cca86189ac8b9e0cd1cc6516f575ed60ca3 (beta.3 code plus documentation maintenance)
-- Dolphin: b24e2427a0ab5aec6102f3b5014d581699b9b4a4 (public beta.3)
+- melonDS: 6631417d026daab29faee7c9b5407db1a3263f35 (beta.4 generic post-Download-Play beacon length correction)
+- Dolphin: 36c502b448d3d7ffa83398021b02bde49cee5e01 (beta.4 upstream Driver speed-hack removal and optional diagnostics)
 - Qt: official universal macOS SDK 6.8.3, via aqtinstall 3.3.0.
 
 Separate native arm64 and x86_64 bundles initially target macOS 15. Dependencies,

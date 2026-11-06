@@ -13,8 +13,8 @@ import shutil
 import subprocess
 
 PINS = {
-    "melonDS": "60a07cca86189ac8b9e0cd1cc6516f575ed60ca3",
-    "Dolphin": "b24e2427a0ab5aec6102f3b5014d581699b9b4a4",
+    "melonDS": "6631417d026daab29faee7c9b5407db1a3263f35",
+    "Dolphin": "36c502b448d3d7ffa83398021b02bde49cee5e01",
 }
 DEPENDENCIES = ("sdl2", "libarchive", "zstd", "faad2", "enet")
 NOTICE_NAMES = ("LICENSE*", "LICENCE*", "COPYING*", "COPYRIGHT*", "NOTICE*", "PATENTS*")
@@ -61,6 +61,12 @@ def privacy_check(root: Path) -> None:
         if not path.is_file():
             continue
         name = path.name.lower()
+        if name in ("sdve41.ini", "sdvp41.ini"):
+            raise RuntimeError(f"Obsolete Driver speed-hack GameINI in package: {relative}")
+        if name == "approvedinis.json":
+            approved = json.loads(path.read_text(encoding="utf-8"))
+            if "SDVE41" in approved or "SDVP41" in approved:
+                raise RuntimeError("Obsolete Driver speed-hack approvals in package")
         if name in FORBIDDEN_NAMES or path.suffix.lower() in FORBIDDEN_SUFFIXES or ".sav." in name:
             raise RuntimeError(f"Unexpected personal/game file in package: {relative}")
         if any(part.lower() in ("privateuser", "privatehome", "facelib") for part in relative.parts):

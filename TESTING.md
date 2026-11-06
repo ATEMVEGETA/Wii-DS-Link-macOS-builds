@@ -3,8 +3,7 @@
 These are the public melonDS/Dolphin forks, not the custom Playnite builds.
 Use the arm64 download on Apple Silicon Macs and x86_64 on Intel Macs.
 See BUILD-INFO.json for the exact minimum macOS version of each download.
-Intel initially targets macOS 15; an Apple Silicon macOS 14 build is also
-attempted on a separate free runner pool. These candidates are not yet
+Both current architectures require macOS 15 or newer. These candidates are not yet
 verified with real games, save transfers, JIT gameplay, or recording software.
 
 ## Install and open

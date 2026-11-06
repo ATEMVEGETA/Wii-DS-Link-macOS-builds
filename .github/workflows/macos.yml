@@ -65,7 +65,7 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: ATEMVEGETA/melonDS
-          ref: 60a07cca86189ac8b9e0cd1cc6516f575ed60ca3
+          ref: 6631417d026daab29faee7c9b5407db1a3263f35
           path: sources/melonDS
           submodules: recursive
           persist-credentials: false
@@ -73,7 +73,7 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           repository: ATEMVEGETA/Dolphin
-          ref: b24e2427a0ab5aec6102f3b5014d581699b9b4a4
+          ref: 36c502b448d3d7ffa83398021b02bde49cee5e01
           path: sources/dolphin
           submodules: false
           persist-credentials: false

@@ -36,6 +36,14 @@ printf '%s\n' "$native" > "$output/architecture.txt"
 grep -q '^RESULT cases=13 failures=0 ' "$output/melonds-test.log"
 [[ $(grep -c '^PASS ' "$output/melonds-test.log") -eq 13 ]]
 
+"$cxx" -std=c++17 -O2 -Wall -Wextra -Werror -pthread \
+    -I"$melon/src" "$here/NintendoGameInfoFixture.cpp" \
+    "$melon/src/net/WiiDSBridge.cpp" -o "$output/NintendoGameInfoFixture" \
+    > "$output/melonds-beacon-compile.log" 2>&1
+"$output/NintendoGameInfoFixture" | tee "$output/melonds-beacon-test.log"
+grep -q '^RESULT beaconGroups=8 failures=0 ' "$output/melonds-beacon-test.log"
+[[ $(grep -c '^PASS ' "$output/melonds-beacon-test.log") -eq 8 ]]
+
 "$cxx" -std=c++20 -O2 -Wall -Wextra -Werror \
     -I"$dolphin/Source/Core" "$here/DolphinMultiplayerFixture.cpp" \
     -o "$output/DolphinMultiplayerFixture" \
@@ -54,8 +62,10 @@ grep -q '^RESULT identityGroups=8 failures=0$' "$output/dolphin-identity-test.lo
 inputs=(
     "$here/MultiDSFixture.cpp" "$here/DolphinMultiplayerFixture.cpp"
     "$here/DolphinIdentityFixture.cpp"
+    "$here/NintendoGameInfoFixture.cpp"
     "$melon/src/net/WiiDSBridge.cpp" "$melon/src/net/WiiDSBridge.h"
     "$melon/src/net/WiiDSMPConfig.h"
+    "$melon/src/net/WiiDSBeacon.h"
     "$dolphin/Source/Core/Core/IOS/Network/WD/WiiDSBridgeMultiplayer.h"
     "$dolphin/Source/Core/Core/IOS/Network/WD/WiiDSBridgeDisconnect.h"
     "$dolphin/Source/Core/Core/IOS/Network/WD/WiiDSBridgeIdentity.h"
@@ -65,6 +75,6 @@ if command -v shasum >/dev/null 2>&1; then
 else
     sha256sum "${inputs[@]}" > "$output/input-sha256.txt"
 fi
-printf '{"passed":true,"architecture":"%s","melonDSCases":13,"dolphinGroups":6,"dolphinIdentityGroups":8,"retailGameVerified":false}\n' \
+printf '{"passed":true,"architecture":"%s","melonDSCases":13,"melonDSBeaconGroups":8,"dolphinGroups":6,"dolphinIdentityGroups":8,"retailGameVerified":false}\n' \
     "$native" > "$output/result.json"
-echo "ROM_FREE_MACOS_CHECKS_PASSED architecture=$native melonDS=13 dolphin=6 dolphinIdentity=8"
+echo "ROM_FREE_MACOS_CHECKS_PASSED architecture=$native melonDS=13 melonDSBeacon=8 dolphin=6 dolphinIdentity=8"
